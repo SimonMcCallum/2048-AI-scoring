@@ -1,39 +1,51 @@
-# Enhanced 2048 Game with Timer Modes and Data Logging
+# Advanced 2048 Game with AI-Based Analytics & Expectimax Evaluation
 
-This is an enhanced version of the classic 2048 game that includes three game modes with comprehensive player data logging capabilities.
+This is a sophisticated version of the classic 2048 game that combines three timer modes with advanced AI-based move evaluation and comprehensive analytics dashboard. The system uses expectimax algorithms (ported from Rust implementation) to analyze player decision-making and provide detailed performance insights.
 
 ## Features
 
 ### Game Modes
 1. **No Timer Mode**: Classic 2048 gameplay without time constraints
-2. **Count Up Timer**: Shows elapsed time and saves it to high scores
+2. **Count Up Timer**: Shows elapsed time in top corner, saves completion time to leaderboards
 3. **Countdown Timer**: 2-minute time limit where final score is the sum of all tiles when time expires
 
-### Data Logging
-- Records every move with timestamps
-- Tracks player names and game modes
-- Saves detailed game statistics
-- Exports data in JSON and CSV formats
-- Maintains high score leaderboards for each mode
+### Advanced Move Analysis
+- **Expectimax Algorithm**: Each move is evaluated using the same sophisticated AI as the Rust implementation
+- **Real-time Decision Analysis**: Every move is scored against all four possible directions
+- **Bad Move Detection**: 10% threshold algorithm identifies suboptimal decisions
+- **Heuristic Scoring**: Uses advanced metrics including monotonicity, merge potential, and empty cell optimization
 
-### Enhanced Features
-- Player name input system
-- Game mode selection interface
-- Real-time timer display with visual warnings
-- High score tables with filtering by mode
-- Automatic data export functionality
-- Responsive design for mobile devices
+### Comprehensive Analytics Dashboard
+- **Score Progression**: Track improvement over multiple games
+- **Learning Curve Analysis**: Visualize decision-making quality over time
+- **Individual Game Analysis**: Move-by-move breakdown with expectimax scores
+- **Player Performance Comparison**: Multi-player statistics and insights
+- **Game Mode Performance**: Compare effectiveness across different timer modes
+- **Move Time Analysis**: Speed vs accuracy correlation analysis
+
+### Data Logging & Export
+- Records every move with expectimax scores for all four directions
+- Tracks player names, game modes, and timing data
+- Saves detailed game statistics and board states
+- Exports comprehensive data in JSON and CSV formats
+- Maintains high score leaderboards for each mode with timing information
 
 ## File Structure
 
 ```
 deploy/
 ├── index.html              # Main game interface
+├── analytics.html          # Comprehensive analytics dashboard
+├── server.js              # Node.js server with API endpoints
+├── package.json           # Node.js dependencies
+├── start-server.bat       # Windows server startup script
+├── start-server.sh        # Unix/Linux server startup script
 ├── js/
 │   ├── application.js      # Enhanced app initialization and UI control
-│   ├── data_logger.js      # Comprehensive data logging system
+│   ├── analytics.js        # Analytics dashboard with Chart.js visualizations
+│   ├── data_logger.js      # Comprehensive data logging with expectimax scores
 │   ├── timer_manager.js    # Timer functionality for timed modes
-│   ├── game_manager.js     # Enhanced game logic with logging
+│   ├── game_manager.js     # Enhanced game logic with expectimax evaluation
 │   ├── html_actuator.js    # UI updates and rendering
 │   ├── grid.js            # Game grid management
 │   ├── tile.js            # Tile objects and animations
@@ -41,11 +53,12 @@ deploy/
 │   ├── local_storage_manager.js   # Local storage management
 │   └── [polyfills]         # Browser compatibility
 ├── style/
-│   ├── main.css           # Enhanced styles with new UI elements
+│   ├── main.css           # Enhanced styles with timer and analytics UI
 │   └── fonts/             # Web fonts
 ├── meta/                  # App icons and metadata
-├── api.php               # Server-side data handling (optional)
-└── web/                  # Server data storage directory
+├── data/                  # Server-side game data storage (auto-created)
+├── api.php               # PHP server-side data handling (alternative)
+└── .htaccess             # Apache configuration for PHP hosting
 ```
 
 ## Deployment Options
@@ -96,18 +109,45 @@ For server-side data logging with PHP, use a PHP-enabled web server:
 ## Usage
 
 ### For Players
-1. Open `index.html` in a web browser
-2. Enter your name
-3. Select a game mode
-4. Play using arrow keys
-5. View high scores in the dedicated section
+1. **Start the Server**: Run the Node.js server using the startup scripts
+2. **Access the Game**: Open http://127.0.0.1:3000 in your browser
+3. **Enter Player Name**: Input your name for data tracking
+4. **Select Game Mode**: Choose from No Timer, Count Up, or Countdown modes
+5. **Play**: Use arrow keys to move tiles and achieve high scores
+6. **View High Scores**: Check leaderboards for each game mode
 
-### For Data Analysis
-Game data is automatically saved and can be exported:
+### For Analytics & Data Analysis
+The system provides comprehensive analytics through multiple interfaces:
 
-- **Browser Console**: Type `exportGameData()` to download all data
-- **Server Logs**: Check the `data/` directory for CSV and JSON files
-- **High Scores**: Viewable directly in the game interface
+#### Analytics Dashboard
+1. **Access Analytics**: Click "Analytics Dashboard" link in the game or visit http://127.0.0.1:3000/analytics.html
+2. **Overall Statistics**: View total games, players, average scores, and performance metrics
+3. **Filter Data**: Use filters to analyze specific players, game modes, or date ranges
+4. **Interactive Charts**: Explore multiple visualizations:
+   - **Score Progression**: Track improvement over multiple games
+   - **Learning Curve**: Rolling average of decision quality over time
+   - **Game Mode Performance**: Compare effectiveness of different timer modes
+   - **Move Time Analysis**: Speed vs accuracy correlation
+   - **Player Comparison**: Multi-player performance statistics
+
+#### Individual Game Analysis
+1. **Select a Game**: Use the dropdown to choose any completed game session
+2. **Move-by-Move Analysis**: View detailed progression with:
+   - Game score progression over moves
+   - Expectimax scores for all four directions (Up, Down, Left, Right)
+   - Average score per move trend line
+   - Good vs bad move identification
+3. **Game Insights**: Detailed statistics including:
+   - Good move rate and decision efficiency
+   - Most used directions and strategic patterns
+   - Best and worst moves with efficiency percentages
+   - Average move time and score efficiency
+
+#### Data Export Options
+- **Server Data**: Check the `data/` directory for JSON and CSV files
+- **Browser Console**: Type `exportGameData()` to download all local data
+- **Analytics Export**: Use dashboard filters and export functionality
+- **Real-time API**: Access live data through RESTful endpoints
 
 ## Data Structure
 
