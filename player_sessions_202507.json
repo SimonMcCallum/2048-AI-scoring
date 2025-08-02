@@ -1,0 +1,12 @@
+[
+  {
+    "session_id": "20250731_233122",
+    "start_time": "2025-07-31T23:31:22.892876Z",
+    "end_time": "2025-07-31T23:33:54.422901800Z",
+    "final_score": 124,
+    "highest_tile": 16,
+    "total_moves": 25,
+    "bad_moves": 2,
+    "average_time_per_move_ms": 4545.28
+  }
+]

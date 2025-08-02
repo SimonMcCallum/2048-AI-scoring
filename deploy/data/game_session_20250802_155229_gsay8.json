@@ -1,0 +1,5313 @@
+{
+  "sessionId": "20250802_155229_gsay8",
+  "playerName": "Peter",
+  "gameMode": "countdown",
+  "startTime": "2025-08-02T03:52:29.579Z",
+  "endTime": "2025-08-02T03:54:29.595Z",
+  "finalScore": 582,
+  "highestTile": 512,
+  "totalMoves": 265,
+  "gameTime": 0,
+  "moves": [
+    {
+      "sessionId": "20250802_155229_gsay8",
+      "playerName": "Peter",
+      "gameMode": "countdown",
+      "moveNumber": 1,
+      "timestamp": "2025-08-02T03:52:33.031Z",
+      "direction": "Down",
+      "score": 0,
+      "boardState": "0,0,0,0,0,0,0,0,0,0,0,2,2,0,0,0",
+      "moveTime": 3450,
+      "tilesAdded": 1,
+      "tilesRemoved": 0,
+      "isBadMove": false,
+      "expectimaxScores": {
+        "up": 4231.098413022335,
+        "right": 4283.098413022335,
+        "down": 4231.098413022335,
+        "left": 4283.098413022335
+      }
+    },
+    {
+      "sessionId": "20250802_155229_gsay8",
+      "playerName": "Peter",
+      "gameMode": "countdown",
+      "moveNumber": 2,
+      "timestamp": "2025-08-02T03:52:33.249Z",
+      "direction": "Down",
+      "score": 4,
+      "boardState": "0,0,0,0,0,0,0,0,0,0,2,2,0,0,0,2",
+      "moveTime": 220,
+      "tilesAdded": 1,
+      "tilesRemoved": 1,
+      "isBadMove": false,
+      "expectimaxScores": {
+        "up": 13527.549206511168,
+        "right": 2247.5492065111675,
+        "down": 13527.549206511168,
+        "left": 2247.5492065111675
+      }
+    },
+    {
+      "sessionId": "20250802_155229_gsay8",
+      "playerName": "Peter",
+      "gameMode": "countdown",
+      "moveNumber": 3,
+      "timestamp": "2025-08-02T03:52:33.498Z",
+      "direction": "Left",
+      "score": 4,
+      "boardState": "0,0,0,0,0,0,0,0,2,0,0,4,0,0,0,2",
+      "moveTime": 249,
+      "tilesAdded": 1,
+      "tilesRemoved": 0,
+      "isBadMove": true,
+      "expectimaxScores": {
+        "up": 25865.098413022337,
+        "right": 13885.098413022335,
+        "down": 13885.098413022335,
+        "left": 2605.098413022335
+      }
+    },
+    {
+      "sessionId": "20250802_155229_gsay8",
+      "playerName": "Peter",
+      "gameMode": "countdown",
+      "moveNumber": 4,
+      "timestamp": "2025-08-02T03:52:34.275Z",
+      "direction": "Down",
+      "score": 8,
+      "boardState": "2,0,2,4,0,0,0,2,0,0,0,0,0,0,0,0",
+      "moveTime": 776,
+      "tilesAdded": 1,
+      "tilesRemoved": 1,
+      "isBadMove": true,
+      "expectimaxScores": {
+        "up": -12274.152360059377,
+        "right": 14190.647619533502,
+        "down": 1269.549206511168,
+        "left": 0
+      }
+    },
+    {
+      "sessionId": "20250802_155229_gsay8",
+      "playerName": "Peter",
+      "gameMode": "countdown",
+      "moveNumber": 5,
+      "timestamp": "2025-08-02T03:52:34.493Z",
+      "direction": "Down",
+      "score": 16,
+      "boardState": "0,0,4,4,0,0,0,2,0,0,2,0,0,0,0,0",
+      "moveTime": 218,
+      "tilesAdded": 1,
+      "tilesRemoved": 1,
+      "isBadMove": true,
+      "expectimaxScores": {
+        "up": -11968.60315354821,
+        "right": 24135.098413022337,
+        "down": -11968.60315354821,
+        "left": 1575.098413022336
+      }
+    },
+    {
+      "sessionId": "20250802_155229_gsay8",
+      "playerName": "Peter",
+      "gameMode": "countdown",
+      "moveNumber": 6,
+      "timestamp": "2025-08-02T03:52:34.726Z",
+      "direction": "Left",
+      "score": 20,
+      "boardState": "0,0,0,8,0,0,0,2,0,2,0,2,0,0,0,0",
+      "moveTime": 233,
+      "tilesAdded": 1,
+      "tilesRemoved": 1,
+      "isBadMove": true,
+      "expectimaxScores": {
+        "up": -2672.1523600593755,
+        "right": 167279.84763994062,
+        "down": -2672.1523600593755,
+        "left": -13200.152360059375
+      }
+    },
+    {
+      "sessionId": "20250802_155229_gsay8",
+      "playerName": "Peter",
+      "gameMode": "countdown",
+      "moveNumber": 7,
+      "timestamp": "2025-08-02T03:52:34.932Z",
+      "direction": "Down",
+      "score": 24,
+      "boardState": "2,2,0,8,0,0,0,4,0,0,0,0,0,0,0,0",
+      "moveTime": 207,
+      "tilesAdded": 1,
+      "tilesRemoved": 1,
+      "isBadMove": true,
+      "expectimaxScores": {
+        "up": 165944.29843342945,
+        "right": 167585.3968464518,
+        "down": -15235.701566570544,
+        "left": 0
+      }
+    },
+    {
+      "sessionId": "20250802_155229_gsay8",
+      "playerName": "Peter",
+      "gameMode": "countdown",
+      "moveNumber": 8,
+      "timestamp": "2025-08-02T03:52:36.172Z",
+      "direction": "Right",
+      "score": 24,
+      "boardState": "0,0,4,8,0,0,0,4,0,0,0,2,0,0,0,0",
+      "moveTime": 1240,
+      "tilesAdded": 1,
+      "tilesRemoved": 0,
+      "isBadMove": false,
+      "expectimaxScores": {
+        "up": 165549.84763994062,
+        "right": 187409.84763994062,
+        "down": 0,
+        "left": 0
+      }
+    },
+    {
+      "sessionId": "20250802_155229_gsay8",
+      "playerName": "Peter",
+      "gameMode": "countdown",
+      "moveNumber": 9,
+      "timestamp": "2025-08-02T03:52:36.582Z",
+      "direction": "Left",
+      "score": 24,
+      "boardState": "0,0,0,0,0,0,0,8,0,0,2,4,0,0,4,2",
+      "moveTime": 410,
+      "tilesAdded": 1,
+      "tilesRemoved": 0,
+      "isBadMove": true,
+      "expectimaxScores": {
+        "up": 198295.3968464518,
+        "right": 0,
+        "down": 0,
+        "left": -4044.6031535482107
+      }
+    },
+    {
+      "sessionId": "20250802_155229_gsay8",
+      "playerName": "Peter",
+      "gameMode": "countdown",
+      "moveNumber": 10,
+      "timestamp": "2025-08-02T03:52:36.924Z",
+      "direction": "Down",
+      "score": 36,
+      "boardState": "0,0,2,8,0,0,4,4,0,2,0,2,0,0,0,0",
+      "moveTime": 342,
+      "tilesAdded": 1,
+      "tilesRemoved": 2,
+      "isBadMove": true,
+      "expectimaxScores": {
+        "up": 353368.14607337007,
+        "right": 186620.94605296297,
+        "down": -29451.85392662992,
+        "left": -3739.0539470370422
+      }
+    },
+    {
+      "sessionId": "20250802_155229_gsay8",
+      "playerName": "Peter",
+      "gameMode": "countdown",
+      "moveNumber": 11,
+      "timestamp": "2025-08-02T03:52:37.100Z",
+      "direction": "Down",
+      "score": 36,
+      "boardState": "0,0,2,8,0,0,0,8,0,2,0,4,0,0,0,0",
+      "moveTime": 176,
+      "tilesAdded": 1,
+      "tilesRemoved": 0,
+      "isBadMove": true,
+      "expectimaxScores": {
+        "up": 376285.69527988124,
+        "right": 2890219.0984130222,
+        "down": -29094.30472011875,
+        "left": -177940.90158697768
+      }
+    },
+    {
+      "sessionId": "20250802_155229_gsay8",
+      "playerName": "Peter",
+      "gameMode": "countdown",
+      "moveNumber": 12,
+      "timestamp": "2025-08-02T03:52:37.265Z",
+      "direction": "Down",
+      "score": 40,
+      "boardState": "0,0,2,8,0,0,0,8,2,0,2,4,0,0,0,0",
+      "moveTime": 165,
+      "tilesAdded": 1,
+      "tilesRemoved": 1,
+      "isBadMove": true,
+      "expectimaxScores": {
+        "up": 339546.4445067995,
+        "right": 2889687.549206511,
+        "down": -18397.85392662992,
+        "left": -179172.45079348882
+      }
+    },
+    {
+      "sessionId": "20250802_155229_gsay8",
+      "playerName": "Peter",
+      "gameMode": "countdown",
+      "moveNumber": 13,
+      "timestamp": "2025-08-02T03:52:37.437Z",
+      "direction": "Down",
+      "score": 48,
+      "boardState": "0,0,2,8,0,0,0,8,0,0,4,4,0,2,0,0",
+      "moveTime": 172,
+      "tilesAdded": 1,
+      "tilesRemoved": 1,
+      "isBadMove": true,
+      "expectimaxScores": {
+        "up": 339151.9937133107,
+        "right": 2888541.0984130222,
+        "down": -43668.0062866893,
+        "left": -167638.90158697768
+      }
+    },
+    {
+      "sessionId": "20250802_155229_gsay8",
+      "playerName": "Peter",
+      "gameMode": "countdown",
+      "moveNumber": 14,
+      "timestamp": "2025-08-02T03:52:37.611Z",
+      "direction": "Down",
+      "score": 52,
+      "boardState": "0,0,2,8,0,0,0,8,0,0,0,8,0,0,2,2",
+      "moveTime": 173,
+      "tilesAdded": 1,
+      "tilesRemoved": 1,
+      "isBadMove": true,
+      "expectimaxScores": {
+        "up": 326588.4445067995,
+        "right": 2896273.8476399407,
+        "down": -44951.55549320047,
+        "left": -194446.15236005938
+      }
+    },
+    {
+      "sessionId": "20250802_155229_gsay8",
+      "playerName": "Peter",
+      "gameMode": "countdown",
+      "moveNumber": 15,
+      "timestamp": "2025-08-02T03:52:37.782Z",
+      "direction": "Down",
+      "score": 56,
+      "boardState": "2,0,2,8,0,0,0,8,0,0,0,8,0,0,0,4",
+      "moveTime": 171,
+      "tilesAdded": 1,
+      "tilesRemoved": 1,
+      "isBadMove": true,
+      "expectimaxScores": {
+        "up": 314024.89530028834,
+        "right": 2874071.396846452,
+        "down": -46235.104699711635,
+        "left": -194088.6031535482
+      }
+    },
+    {
+      "sessionId": "20250802_155229_gsay8",
+      "playerName": "Peter",
+      "gameMode": "countdown",
+      "moveNumber": 16,
+      "timestamp": "2025-08-02T03:52:38.576Z",
+      "direction": "Left",
+      "score": 72,
+      "boardState": "0,2,4,8,0,0,0,8,0,0,0,8,0,0,0,4",
+      "moveTime": 795,
+      "tilesAdded": 1,
+      "tilesRemoved": 1,
+      "isBadMove": true,
+      "expectimaxScores": {
+        "up": 324910.4445067995,
+        "right": 2872735.8476399407,
+        "down": 0,
+        "left": -196124.15236005938
+      }
+    },
+    {
+      "sessionId": "20250802_155229_gsay8",
+      "playerName": "Peter",
+      "gameMode": "countdown",
+      "moveNumber": 17,
+      "timestamp": "2025-08-02T03:52:38.845Z",
+      "direction": "Right",
+      "score": 72,
+      "boardState": "0,2,4,16,0,0,2,8,0,0,0,4,0,0,0,0",
+      "moveTime": 269,
+      "tilesAdded": 1,
+      "tilesRemoved": 0,
+      "isBadMove": true,
+      "expectimaxScores": {
+        "up": 3267141.396846452,
+        "right": 2883621.396846452,
+        "down": 0,
+        "left": 0
+      }
+    },
+    {
+      "sessionId": "20250802_155229_gsay8",
+      "playerName": "Peter",
+      "gameMode": "countdown",
+      "moveNumber": 18,
+      "timestamp": "2025-08-02T03:52:39.102Z",
+      "direction": "Down",
+      "score": 76,
+      "boardState": "0,0,2,0,0,0,0,16,0,0,4,8,0,2,2,4",
+      "moveTime": 257,
+      "tilesAdded": 1,
+      "tilesRemoved": 1,
+      "isBadMove": true,
+      "expectimaxScores": {
+        "up": 3230506.1460733702,
+        "right": 2883226.946052963,
+        "down": 2871757.8476399407,
+        "left": -184933.05394703703
+      }
+    },
+    {
+      "sessionId": "20250802_155229_gsay8",
+      "playerName": "Peter",
+      "gameMode": "countdown",
+      "moveNumber": 19,
+      "timestamp": "2025-08-02T03:52:39.295Z",
+      "direction": "Down",
+      "score": 88,
+      "boardState": "0,2,0,2,0,0,0,16,0,0,4,8,0,0,4,4",
+      "moveTime": 193,
+      "tilesAdded": 1,
+      "tilesRemoved": 2,
+      "isBadMove": true,
+      "expectimaxScores": {
+        "up": 3229222.596866859,
+        "right": 3037599.6952798814,
+        "down": 2688482.596866859,
+        "left": 3048879.6952798814
+      }
+    },
+    {
+      "sessionId": "20250802_155229_gsay8",
+      "playerName": "Peter",
+      "gameMode": "countdown",
+      "moveNumber": 20,
+      "timestamp": "2025-08-02T03:52:39.483Z",
+      "direction": "Left",
+      "score": 104,
+      "boardState": "0,0,0,4,0,2,0,16,0,0,4,8,0,0,0,8",
+      "moveTime": 188,
+      "tilesAdded": 1,
+      "tilesRemoved": 1,
+      "isBadMove": true,
+      "expectimaxScores": {
+        "up": 6139068.14607337,
+        "right": -2038702.2513145185,
+        "down": 2688088.1460733702,
+        "left": 2709141.549206511
+      }
+    },
+    {
+      "sessionId": "20250802_155229_gsay8",
+      "playerName": "Peter",
+      "gameMode": "countdown",
+      "moveNumber": 21,
+      "timestamp": "2025-08-02T03:52:39.654Z",
+      "direction": "Left",
+      "score": 140,
+      "boardState": "0,2,4,4,0,0,0,16,0,2,0,16,0,0,0,0",
+      "moveTime": 171,
+      "tilesAdded": 1,
+      "tilesRemoved": 2,
+      "isBadMove": false,
+      "expectimaxScores": {
+        "up": 9057175.39684645,
+        "right": -2039285.8005210296,
+        "down": 2515475.396846452,
+        "left": 47232454.19947897
+      }
+    },
+    {
+      "sessionId": "20250802_155229_gsay8",
+      "playerName": "Peter",
+      "gameMode": "countdown",
+      "moveNumber": 22,
+      "timestamp": "2025-08-02T03:52:39.992Z",
+      "direction": "Down",
+      "score": 148,
+      "boardState": "0,4,4,4,0,0,0,32,0,2,0,0,0,0,0,0",
+      "moveTime": 338,
+      "tilesAdded": 1,
+      "tilesRemoved": 1,
+      "isBadMove": false,
+      "expectimaxScores": {
+        "up": 47037336.04711891,
+        "right": -2017068.2513145185,
+        "down": 47037336.04711891,
+        "left": 47232811.74868548
+      }
+    },
+    {
+      "sessionId": "20250802_155229_gsay8",
+      "playerName": "Peter",
+      "gameMode": "countdown",
+      "moveNumber": 23,
+      "timestamp": "2025-08-02T03:52:40.163Z",
+      "direction": "Down",
+      "score": 148,
+      "boardState": "0,0,4,8,0,0,0,32,0,0,0,2,0,0,4,0",
+      "moveTime": 171,
+      "tilesAdded": 1,
+      "tilesRemoved": 0,
+      "isBadMove": false,
+      "expectimaxScores": {
+        "up": 47407898.04711891,
+        "right": 47406334.34555234,
+        "down": 47046938.04711891,
+        "left": 47023514.34555234
+      }
+    },
+    {
+      "sessionId": "20250802_155229_gsay8",
+      "playerName": "Peter",
+      "gameMode": "countdown",
+      "moveNumber": 24,
+      "timestamp": "2025-08-02T03:52:40.344Z",
+      "direction": "Down",
+      "score": 148,
+      "boardState": "0,0,4,8,2,0,0,32,0,0,0,2,0,0,0,4",
+      "moveTime": 181,
+      "tilesAdded": 1,
+      "tilesRemoved": 0,
+      "isBadMove": true,
+      "expectimaxScores": {
+        "up": 96510043.59632543,
+        "right": 47047995.59632542,
+        "down": 47046543.59632542,
+        "left": 47047295.59632542
+      }
+    },
+    {
+      "sessionId": "20250802_155229_gsay8",
+      "playerName": "Peter",
+      "gameMode": "countdown",
+      "moveNumber": 25,
+      "timestamp": "2025-08-02T03:52:40.501Z",
+      "direction": "Down",
+      "score": 148,
+      "boardState": "0,0,4,8,0,0,2,32,0,0,0,2,0,2,0,4",
+      "moveTime": 157,
+      "tilesAdded": 1,
+      "tilesRemoved": 0,
+      "isBadMove": true,
+      "expectimaxScores": {
+        "up": 96522381.14553194,
+        "right": 47069409.14553193,
+        "down": 47046901.14553193,
+        "left": 47046149.14553193
+      }
+    },
+    {
+      "sessionId": "20250802_155229_gsay8",
+      "playerName": "Peter",
+      "gameMode": "countdown",
+      "moveNumber": 26,
+      "timestamp": "2025-08-02T03:52:40.681Z",
+      "direction": "Down",
+      "score": 152,
+      "boardState": "0,0,4,8,0,0,2,32,0,0,0,2,2,0,2,4",
+      "moveTime": 179,
+      "tilesAdded": 1,
+      "tilesRemoved": 1,
+      "isBadMove": true,
+      "expectimaxScores": {
+        "up": 96495521.89475885,
+        "right": 47213253.89475885,
+        "down": 47057597.59632542,
+        "left": 47046317.59632542
+      }
+    },
+    {
+      "sessionId": "20250802_155229_gsay8",
+      "playerName": "Peter",
+      "gameMode": "countdown",
+      "moveNumber": 27,
+      "timestamp": "2025-08-02T03:52:40.847Z",
+      "direction": "Down",
+      "score": 164,
+      "boardState": "0,0,4,8,0,0,2,32,2,0,0,2,0,0,4,4",
+      "moveTime": 167,
+      "tilesAdded": 1,
+      "tilesRemoved": 2,
+      "isBadMove": true,
+      "expectimaxScores": {
+        "up": 96493538.34555234,
+        "right": 47057903.14553193,
+        "down": 47199938.34555234,
+        "left": 47067783.14553193
+      }
+    },
+    {
+      "sessionId": "20250802_155229_gsay8",
+      "playerName": "Peter",
+      "gameMode": "countdown",
+      "moveNumber": 28,
+      "timestamp": "2025-08-02T03:52:41.046Z",
+      "direction": "Down",
+      "score": 164,
+      "boardState": "2,0,4,8,0,0,2,32,0,0,0,4,0,0,0,8",
+      "moveTime": 198,
+      "tilesAdded": 1,
+      "tilesRemoved": 0,
+      "isBadMove": true,
+      "expectimaxScores": {
+        "up": 96674323.89475885,
+        "right": 47212275.89475885,
+        "down": 47199543.89475885,
+        "left": 0
+      }
+    },
+    {
+      "sessionId": "20250802_155229_gsay8",
+      "playerName": "Peter",
+      "gameMode": "countdown",
+      "moveNumber": 29,
+      "timestamp": "2025-08-02T03:52:41.162Z",
+      "direction": "Left",
+      "score": 164,
+      "boardState": "0,2,4,8,0,0,2,32,2,0,0,4,0,0,0,8",
+      "moveTime": 116,
+      "tilesAdded": 1,
+      "tilesRemoved": 0,
+      "isBadMove": true,
+      "expectimaxScores": {
+        "up": 96685909.44396536,
+        "right": 47212529.44396536,
+        "down": 47199849.44396536,
+        "left": 47199849.44396536
+      }
+    },
+    {
+      "sessionId": "20250802_155229_gsay8",
+      "playerName": "Peter",
+      "gameMode": "countdown",
+      "moveNumber": 30,
+      "timestamp": "2025-08-02T03:52:41.348Z",
+      "direction": "Left",
+      "score": 168,
+      "boardState": "2,2,4,8,0,0,2,32,0,0,0,4,0,2,0,8",
+      "moveTime": 187,
+      "tilesAdded": 1,
+      "tilesRemoved": 1,
+      "isBadMove": true,
+      "expectimaxScores": {
+        "up": 96534319.59632543,
+        "right": 47221125.89475885,
+        "down": 47199317.89475885,
+        "left": 47198565.89475885
+      }
+    },
+    {
+      "sessionId": "20250802_155229_gsay8",
+      "playerName": "Peter",
+      "gameMode": "countdown",
+      "moveNumber": 31,
+      "timestamp": "2025-08-02T03:52:41.530Z",
+      "direction": "Down",
+      "score": 176,
+      "boardState": "2,4,4,8,0,0,2,32,0,0,0,4,0,2,0,8",
+      "moveTime": 182,
+      "tilesAdded": 1,
+      "tilesRemoved": 1,
+      "isBadMove": true,
+      "expectimaxScores": {
+        "up": 96726385.14553194,
+        "right": 47222831.44396536,
+        "down": 47186079.74239879,
+        "left": 47198871.44396536
+      }
+    },
+    {
+      "sessionId": "20250802_155229_gsay8",
+      "playerName": "Peter",
+      "gameMode": "countdown",
+      "moveNumber": 32,
+      "timestamp": "2025-08-02T03:52:41.719Z",
+      "direction": "Down",
+      "score": 192,
+      "boardState": "0,2,8,8,0,0,2,32,0,0,2,4,0,0,2,8",
+      "moveTime": 188,
+      "tilesAdded": 1,
+      "tilesRemoved": 1,
+      "isBadMove": true,
+      "expectimaxScores": {
+        "up": 96715358.69473845,
+        "right": 47375104.19319228,
+        "down": 44150558.69473845,
+        "left": 47184044.19319228
+      }
+    },
+    {
+      "sessionId": "20250802_155229_gsay8",
+      "playerName": "Peter",
+      "gameMode": "countdown",
+      "moveNumber": 33,
+      "timestamp": "2025-08-02T03:52:41.895Z",
+      "direction": "Down",
+      "score": 196,
+      "boardState": "0,0,2,16,0,2,2,32,0,0,2,4,0,0,2,8",
+      "moveTime": 177,
+      "tilesAdded": 1,
+      "tilesRemoved": 1,
+      "isBadMove": true,
+      "expectimaxScores": {
+        "up": 96712675.14553194,
+        "right": 44147686.04711891,
+        "down": 44159155.14553193,
+        "left": 44146986.04711891
+      }
+    },
+    {
+      "sessionId": "20250802_155229_gsay8",
+      "playerName": "Peter",
+      "gameMode": "countdown",
+      "moveNumber": 34,
+      "timestamp": "2025-08-02T03:52:42.069Z",
+      "direction": "Down",
+      "score": 200,
+      "boardState": "0,0,2,16,0,0,4,32,0,0,2,4,0,2,2,8",
+      "moveTime": 174,
+      "tilesAdded": 1,
+      "tilesRemoved": 1,
+      "isBadMove": true,
+      "expectimaxScores": {
+        "up": 96699411.59632543,
+        "right": 44133747.89475885,
+        "down": 44157171.59632542,
+        "left": 44159271.59632542
+      }
+    },
+    {
+      "sessionId": "20250802_155229_gsay8",
+      "playerName": "Peter",
+      "gameMode": "countdown",
+      "moveNumber": 35,
+      "timestamp": "2025-08-02T03:52:42.409Z",
+      "direction": "Left",
+      "score": 200,
+      "boardState": "0,0,2,16,0,2,4,32,0,0,2,4,0,0,4,8",
+      "moveTime": 340,
+      "tilesAdded": 1,
+      "tilesRemoved": 0,
+      "isBadMove": true,
+      "expectimaxScores": {
+        "up": 99781309.14553194,
+        "right": 44156777.14553193,
+        "down": 0,
+        "left": 44157477.14553193
+      }
+    },
+    {
+      "sessionId": "20250802_155229_gsay8",
+      "playerName": "Peter",
+      "gameMode": "countdown",
+      "moveNumber": 36,
+      "timestamp": "2025-08-02T03:52:42.583Z",
+      "direction": "Left",
+      "score": 200,
+      "boardState": "0,2,2,16,0,0,4,32,0,0,2,4,2,0,4,8",
+      "moveTime": 174,
+      "tilesAdded": 1,
+      "tilesRemoved": 0,
+      "isBadMove": true,
+      "expectimaxScores": {
+        "up": 96508073.59632543,
+        "right": 44157082.69473845,
+        "down": 44156193.59632542,
+        "left": 44157782.69473845
+      }
+    },
+    {
+      "sessionId": "20250802_155229_gsay8",
+      "playerName": "Peter",
+      "gameMode": "countdown",
+      "moveNumber": 37,
+      "timestamp": "2025-08-02T03:52:42.749Z",
+      "direction": "Down",
+      "score": 208,
+      "boardState": "2,2,2,16,0,0,4,32,0,2,2,4,0,0,4,8",
+      "moveTime": 166,
+      "tilesAdded": 1,
+      "tilesRemoved": 2,
+      "isBadMove": true,
+      "expectimaxScores": {
+        "up": 99741938.34555234,
+        "right": 44155799.14553193,
+        "down": 44145730.04711891,
+        "left": 44166379.14553193
+      }
+    },
+    {
+      "sessionId": "20250802_155229_gsay8",
+      "playerName": "Peter",
+      "gameMode": "countdown",
+      "moveNumber": 38,
+      "timestamp": "2025-08-02T03:52:42.940Z",
+      "direction": "Down",
+      "score": 216,
+      "boardState": "0,2,4,16,2,0,4,32,0,0,4,4,0,0,4,8",
+      "moveTime": 191,
+      "tilesAdded": 1,
+      "tilesRemoved": 1,
+      "isBadMove": true,
+      "expectimaxScores": {
+        "up": 96685363.89475885,
+        "right": 44299428.19319228,
+        "down": 43963343.89475885,
+        "left": 44118248.19319228
+      }
+    },
+    {
+      "sessionId": "20250802_155229_gsay8",
+      "playerName": "Peter",
+      "gameMode": "countdown",
+      "moveNumber": 39,
+      "timestamp": "2025-08-02T03:52:43.301Z",
+      "direction": "Left",
+      "score": 244,
+      "boardState": "0,2,4,16,0,2,4,32,0,0,2,8,0,0,4,8",
+      "moveTime": 360,
+      "tilesAdded": 1,
+      "tilesRemoved": 3,
+      "isBadMove": true,
+      "expectimaxScores": {
+        "up": 96685617.44396536,
+        "right": 43979450.04711891,
+        "down": 0,
+        "left": 43798270.04711891
+      }
+    },
+    {
+      "sessionId": "20250802_155229_gsay8",
+      "playerName": "Peter",
+      "gameMode": "countdown",
+      "moveNumber": 40,
+      "timestamp": "2025-08-02T03:52:45.681Z",
+      "direction": "Right",
+      "score": 244,
+      "boardState": "2,4,8,16,0,0,2,32,0,0,4,16,0,0,0,0",
+      "moveTime": 2381,
+      "tilesAdded": 1,
+      "tilesRemoved": 0,
+      "isBadMove": true,
+      "expectimaxScores": {
+        "up": 99217215.59632543,
+        "right": 43979055.59632542,
+        "down": 0,
+        "left": 0
+      }
+    },
+    {
+      "sessionId": "20250802_155229_gsay8",
+      "playerName": "Peter",
+      "gameMode": "countdown",
+      "moveNumber": 41,
+      "timestamp": "2025-08-02T03:52:45.959Z",
+      "direction": "Left",
+      "score": 244,
+      "boardState": "0,0,2,0,0,0,8,16,0,0,2,32,2,4,4,16",
+      "moveTime": 278,
+      "tilesAdded": 1,
+      "tilesRemoved": 0,
+      "isBadMove": true,
+      "expectimaxScores": {
+        "up": 102102937.44396536,
+        "right": 0,
+        "down": 43965117.44396536,
+        "left": 44001273.14553193
+      }
+    },
+    {
+      "sessionId": "20250802_155229_gsay8",
+      "playerName": "Peter",
+      "gameMode": "countdown",
+      "moveNumber": 42,
+      "timestamp": "2025-08-02T03:52:46.256Z",
+      "direction": "Down",
+      "score": 244,
+      "boardState": "2,4,2,16,0,0,8,32,0,0,2,16,0,2,4,0",
+      "moveTime": 297,
+      "tilesAdded": 1,
+      "tilesRemoved": 0,
+      "isBadMove": true,
+      "expectimaxScores": {
+        "up": 99238986.69473845,
+        "right": 44001578.69473845,
+        "down": 43989546.69473845,
+        "left": 44000878.69473845
+      }
+    },
+    {
+      "sessionId": "20250802_155229_gsay8",
+      "playerName": "Peter",
+      "gameMode": "countdown",
+      "moveNumber": 43,
+      "timestamp": "2025-08-02T03:52:46.439Z",
+      "direction": "Down",
+      "score": 248,
+      "boardState": "2,4,2,16,0,0,8,32,2,0,2,16,0,0,2,4",
+      "moveTime": 183,
+      "tilesAdded": 1,
+      "tilesRemoved": 1,
+      "isBadMove": true,
+      "expectimaxScores": {
+        "up": 99225723.14553194,
+        "right": 43966214.04711891,
+        "down": 43987563.14553193,
+        "left": 43987374.04711891
+      }
+    },
+    {
+      "sessionId": "20250802_155229_gsay8",
+      "playerName": "Peter",
+      "gameMode": "countdown",
+      "moveNumber": 44,
+      "timestamp": "2025-08-02T03:52:46.598Z",
+      "direction": "Down",
+      "score": 248,
+      "boardState": "2,4,2,16,2,0,8,32,0,0,4,16,0,0,2,4",
+      "moveTime": 159,
+      "tilesAdded": 1,
+      "tilesRemoved": 0,
+      "isBadMove": true,
+      "expectimaxScores": {
+        "up": 102316748.69473845,
+        "right": 43986979.59632542,
+        "down": 43987168.69473845,
+        "left": 43986979.59632542
+      }
+    },
+    {
+      "sessionId": "20250802_155229_gsay8",
+      "playerName": "Peter",
+      "gameMode": "countdown",
+      "moveNumber": 45,
+      "timestamp": "2025-08-02T03:52:46.767Z",
+      "direction": "Left",
+      "score": 252,
+      "boardState": "2,4,2,16,2,2,8,32,0,0,4,16,0,0,2,4",
+      "moveTime": 169,
+      "tilesAdded": 1,
+      "tilesRemoved": 1,
+      "isBadMove": true,
+      "expectimaxScores": {
+        "up": 102304185.14553194,
+        "right": 43998565.14553193,
+        "down": 43986585.14553193,
+        "left": 43986585.14553193
+      }
+    },
+    {
+      "sessionId": "20250802_155229_gsay8",
+      "playerName": "Peter",
+      "gameMode": "countdown",
+      "moveNumber": 46,
+      "timestamp": "2025-08-02T03:52:47.112Z",
+      "direction": "Down",
+      "score": 264,
+      "boardState": "4,4,2,16,2,2,8,32,0,0,4,16,0,0,2,4",
+      "moveTime": 345,
+      "tilesAdded": 1,
+      "tilesRemoved": 2,
+      "isBadMove": true,
+      "expectimaxScores": {
+        "up": 102267497.89475885,
+        "right": 43999570.69473845,
+        "down": 44152237.89475885,
+        "left": 0
+      }
+    },
+    {
+      "sessionId": "20250802_155229_gsay8",
+      "playerName": "Peter",
+      "gameMode": "countdown",
+      "moveNumber": 47,
+      "timestamp": "2025-08-02T03:52:47.299Z",
+      "direction": "Down",
+      "score": 268,
+      "boardState": "0,8,2,16,0,4,8,32,0,0,4,16,2,0,2,4",
+      "moveTime": 187,
+      "tilesAdded": 1,
+      "tilesRemoved": 1,
+      "isBadMove": true,
+      "expectimaxScores": {
+        "up": 102433850.64398576,
+        "right": 44332323.44396536,
+        "down": 44141074.34555234,
+        "left": 44151843.44396536
+      }
+    },
+    {
+      "sessionId": "20250802_155229_gsay8",
+      "playerName": "Peter",
+      "gameMode": "countdown",
+      "moveNumber": 48,
+      "timestamp": "2025-08-02T03:52:47.563Z",
+      "direction": "Down",
+      "score": 276,
+      "boardState": "0,8,2,16,0,4,8,32,0,0,4,16,4,0,4,4",
+      "moveTime": 264,
+      "tilesAdded": 1,
+      "tilesRemoved": 1,
+      "isBadMove": true,
+      "expectimaxScores": {
+        "up": 102420892.64398576,
+        "right": 47045918.04711891,
+        "down": 44125852.64398577,
+        "left": 44137132.64398577
+      }
+    },
+    {
+      "sessionId": "20250802_155229_gsay8",
+      "playerName": "Peter",
+      "gameMode": "countdown",
+      "moveNumber": 49,
+      "timestamp": "2025-08-02T03:52:48.377Z",
+      "direction": "Right",
+      "score": 284,
+      "boardState": "0,8,2,16,0,4,8,32,0,2,4,16,0,0,4,8",
+      "moveTime": 814,
+      "tilesAdded": 1,
+      "tilesRemoved": 1,
+      "isBadMove": true,
+      "expectimaxScores": {
+        "up": 99554678.19319227,
+        "right": 46874811.89475885,
+        "down": 0,
+        "left": 44123894.49162571
+      }
+    },
+    {
+      "sessionId": "20250802_155229_gsay8",
+      "playerName": "Peter",
+      "gameMode": "countdown",
+      "moveNumber": 50,
+      "timestamp": "2025-08-02T03:52:48.600Z",
+      "direction": "Left",
+      "score": 300,
+      "boardState": "0,0,0,16,2,8,2,32,0,4,8,16,0,2,8,8",
+      "moveTime": 223,
+      "tilesAdded": 1,
+      "tilesRemoved": 1,
+      "isBadMove": true,
+      "expectimaxScores": {
+        "up": 56102909.44396536,
+        "right": 46875117.44396536,
+        "down": 44168669.44396536,
+        "left": 46863137.44396536
+      }
+    },
+    {
+      "sessionId": "20250802_155229_gsay8",
+      "playerName": "Peter",
+      "gameMode": "countdown",
+      "moveNumber": 51,
+      "timestamp": "2025-08-02T03:52:48.828Z",
+      "direction": "Down",
+      "score": 300,
+      "boardState": "2,8,2,16,0,4,16,32,0,2,0,16,0,2,0,8",
+      "moveTime": 228,
+      "tilesAdded": 1,
+      "tilesRemoved": 0,
+      "isBadMove": true,
+      "expectimaxScores": {
+        "up": 102304590.99317187,
+        "right": 46317343.59632542,
+        "down": 46862690.99317187,
+        "left": 46873833.89475885
+      }
+    },
+    {
+      "sessionId": "20250802_155229_gsay8",
+      "playerName": "Peter",
+      "gameMode": "countdown",
+      "moveNumber": 52,
+      "timestamp": "2025-08-02T03:52:49.044Z",
+      "direction": "Left",
+      "score": 304,
+      "boardState": "2,8,2,16,0,4,16,32,0,0,2,16,0,2,2,8",
+      "moveTime": 215,
+      "tilesAdded": 1,
+      "tilesRemoved": 1,
+      "isBadMove": true,
+      "expectimaxScores": {
+        "up": 102291327.44396536,
+        "right": 47042587.44396536,
+        "down": 46860707.44396536,
+        "left": 46860707.44396536
+      }
+    },
+    {
+      "sessionId": "20250802_155229_gsay8",
+      "playerName": "Peter",
+      "gameMode": "countdown",
+      "moveNumber": 53,
+      "timestamp": "2025-08-02T03:52:49.249Z",
+      "direction": "Left",
+      "score": 308,
+      "boardState": "2,8,2,16,0,4,16,32,2,2,4,16,0,0,0,8",
+      "moveTime": 206,
+      "tilesAdded": 1,
+      "tilesRemoved": 1,
+      "isBadMove": true,
+      "expectimaxScores": {
+        "up": 101894380.19319227,
+        "right": 47051883.89475885,
+        "down": 46860823.89475885,
+        "left": 46859423.89475885
+      }
+    },
+    {
+      "sessionId": "20250802_155229_gsay8",
+      "playerName": "Peter",
+      "gameMode": "countdown",
+      "moveNumber": 54,
+      "timestamp": "2025-08-02T03:52:49.410Z",
+      "direction": "Down",
+      "score": 308,
+      "boardState": "4,8,2,16,0,4,16,32,0,2,4,16,0,2,0,8",
+      "moveTime": 161,
+      "tilesAdded": 1,
+      "tilesRemoved": 0,
+      "isBadMove": true,
+      "expectimaxScores": {
+        "up": 102470829.44396536,
+        "right": 49563022.04711891,
+        "down": 46859029.44396536,
+        "left": 46859540.34555234
+      }
+    },
+    {
+      "sessionId": "20250802_155229_gsay8",
+      "playerName": "Peter",
+      "gameMode": "countdown",
+      "moveNumber": 55,
+      "timestamp": "2025-08-02T03:52:49.791Z",
+      "direction": "Right",
+      "score": 308,
+      "boardState": "4,8,2,16,0,4,16,32,0,2,4,16,2,0,2,8",
+      "moveTime": 380,
+      "tilesAdded": 1,
+      "tilesRemoved": 0,
+      "isBadMove": true,
+      "expectimaxScores": {
+        "up": 102468845.89475885,
+        "right": 46872714.99317187,
+        "down": 46847165.89475885,
+        "left": 46858634.99317187
+      }
+    },
+    {
+      "sessionId": "20250802_155229_gsay8",
+      "playerName": "Peter",
+      "gameMode": "countdown",
+      "moveNumber": 56,
+      "timestamp": "2025-08-02T03:52:50.099Z",
+      "direction": "Left",
+      "score": 308,
+      "boardState": "2,0,2,16,0,8,16,32,4,4,4,16,2,2,2,8",
+      "moveTime": 309,
+      "tilesAdded": 1,
+      "tilesRemoved": 0,
+      "isBadMove": true,
+      "expectimaxScores": {
+        "up": 102060618.64398576,
+        "right": 46872320.54237839,
+        "down": 46832338.64398577,
+        "left": 46870920.54237839
+      }
+    },
+    {
+      "sessionId": "20250802_155229_gsay8",
+      "playerName": "Peter",
+      "gameMode": "countdown",
+      "moveNumber": 57,
+      "timestamp": "2025-08-02T03:52:50.335Z",
+      "direction": "Down",
+      "score": 324,
+      "boardState": "2,8,2,16,4,4,16,32,2,2,4,16,0,2,2,8",
+      "moveTime": 236,
+      "tilesAdded": 1,
+      "tilesRemoved": 3,
+      "isBadMove": true,
+      "expectimaxScores": {
+        "up": 102058660.49162571,
+        "right": 49607762.69473845,
+        "down": 46834044.19319228,
+        "left": 46870336.99317187
+      }
+    },
+    {
+      "sessionId": "20250802_155229_gsay8",
+      "playerName": "Peter",
+      "gameMode": "countdown",
+      "moveNumber": 58,
+      "timestamp": "2025-08-02T03:52:50.655Z",
+      "direction": "Right",
+      "score": 348,
+      "boardState": "2,8,2,16,0,8,16,32,0,4,4,16,0,2,4,8",
+      "moveTime": 320,
+      "tilesAdded": 1,
+      "tilesRemoved": 2,
+      "isBadMove": true,
+      "expectimaxScores": {
+        "up": 102081578.04083222,
+        "right": 52459351.44396536,
+        "down": 46820158.04083222,
+        "left": 49569571.44396536
+      }
+    },
+    {
+      "sessionId": "20250802_155229_gsay8",
+      "playerName": "Peter",
+      "gameMode": "countdown",
+      "moveNumber": 59,
+      "timestamp": "2025-08-02T03:52:50.929Z",
+      "direction": "Right",
+      "score": 352,
+      "boardState": "2,0,0,16,0,16,2,32,0,4,16,16,2,2,8,8",
+      "moveTime": 274,
+      "tilesAdded": 1,
+      "tilesRemoved": 1,
+      "isBadMove": true,
+      "expectimaxScores": {
+        "up": 201715361.49737096,
+        "right": 52468647.89475885,
+        "down": 47744761.497370966,
+        "left": 49568287.89475885
+      }
+    },
+    {
+      "sessionId": "20250802_155229_gsay8",
+      "playerName": "Peter",
+      "gameMode": "countdown",
+      "moveNumber": 60,
+      "timestamp": "2025-08-02T03:52:51.334Z",
+      "direction": "Left",
+      "score": 352,
+      "boardState": "0,0,0,16,2,16,2,32,0,4,16,16,4,2,8,8",
+      "moveTime": 405,
+      "tilesAdded": 1,
+      "tilesRemoved": 0,
+      "isBadMove": true,
+      "expectimaxScores": {
+        "up": 149387799.04657748,
+        "right": 52468253.44396536,
+        "down": 47766279.046577476,
+        "left": 49579873.44396536
+      }
+    },
+    {
+      "sessionId": "20250802_155229_gsay8",
+      "playerName": "Peter",
+      "gameMode": "countdown",
+      "moveNumber": 61,
+      "timestamp": "2025-08-02T03:52:51.874Z",
+      "direction": "Right",
+      "score": 356,
+      "boardState": "2,16,2,16,4,4,16,32,0,2,8,16,0,2,0,8",
+      "moveTime": 540,
+      "tilesAdded": 1,
+      "tilesRemoved": 1,
+      "isBadMove": true,
+      "expectimaxScores": {
+        "up": 102110275.29160531,
+        "right": 49173046.19319228,
+        "down": 49554655.2916053,
+        "left": 49579289.89475885
+      }
+    },
+    {
+      "sessionId": "20250802_155229_gsay8",
+      "playerName": "Peter",
+      "gameMode": "countdown",
+      "moveNumber": 62,
+      "timestamp": "2025-08-02T03:52:52.852Z",
+      "direction": "Left",
+      "score": 364,
+      "boardState": "0,0,4,16,0,16,2,32,2,4,16,16,4,4,8,8",
+      "moveTime": 978,
+      "tilesAdded": 1,
+      "tilesRemoved": 1,
+      "isBadMove": true,
+      "expectimaxScores": {
+        "up": 149551721.79580438,
+        "right": 49182648.19319228,
+        "down": 47738441.795804396,
+        "left": 49564768.19319228
+      }
+    },
+    {
+      "sessionId": "20250802_155229_gsay8",
+      "playerName": "Peter",
+      "gameMode": "countdown",
+      "moveNumber": 63,
+      "timestamp": "2025-08-02T03:52:53.332Z",
+      "direction": "Down",
+      "score": 412,
+      "boardState": "2,16,4,16,4,8,2,32,0,0,16,16,0,2,8,8",
+      "moveTime": 480,
+      "tilesAdded": 1,
+      "tilesRemoved": 2,
+      "isBadMove": true,
+      "expectimaxScores": {
+        "up": 100268307.3450109,
+        "right": 52463333.74239879,
+        "down": 44839087.34501091,
+        "left": 49564373.74239879
+      }
+    },
+    {
+      "sessionId": "20250802_155229_gsay8",
+      "playerName": "Peter",
+      "gameMode": "countdown",
+      "moveNumber": 64,
+      "timestamp": "2025-08-02T03:52:53.751Z",
+      "direction": "Right",
+      "score": 480,
+      "boardState": "2,16,4,16,4,8,2,32,0,2,0,32,0,0,2,16",
+      "moveTime": 419,
+      "tilesAdded": 1,
+      "tilesRemoved": 2,
+      "isBadMove": false,
+      "expectimaxScores": {
+        "up": 146290260.8942174,
+        "right": 768171413.6952798,
+        "down": 44839340.89421742,
+        "left": 765082205.3968464
+      }
+    },
+    {
+      "sessionId": "20250802_155229_gsay8",
+      "playerName": "Peter",
+      "gameMode": "countdown",
+      "moveNumber": 65,
+      "timestamp": "2025-08-02T03:52:54.596Z",
+      "direction": "Left",
+      "score": 488,
+      "boardState": "0,0,2,0,0,16,0,16,2,8,4,64,4,2,4,16",
+      "moveTime": 845,
+      "tilesAdded": 1,
+      "tilesRemoved": 1,
+      "isBadMove": false,
+      "expectimaxScores": {
+        "up": 809808695.1455319,
+        "right": 768170267.2444865,
+        "down": 760526375.1455319,
+        "left": 765091527.2444863
+      }
+    },
+    {
+      "sessionId": "20250802_155229_gsay8",
+      "playerName": "Peter",
+      "gameMode": "countdown",
+      "moveNumber": 66,
+      "timestamp": "2025-08-02T03:52:55.225Z",
+      "direction": "Down",
+      "score": 508,
+      "boardState": "2,16,2,16,4,8,8,64,2,2,0,16,0,0,0,0",
+      "moveTime": 629,
+      "tilesAdded": 1,
+      "tilesRemoved": 2,
+      "isBadMove": true,
+      "expectimaxScores": {
+        "up": 1559415757.098413,
+        "right": 768170572.793693,
+        "down": 767817097.098413,
+        "left": 0
+      }
+    },
+    {
+      "sessionId": "20250802_155229_gsay8",
+      "playerName": "Peter",
+      "gameMode": "countdown",
+      "moveNumber": 67,
+      "timestamp": "2025-08-02T03:52:55.989Z",
+      "direction": "Right",
+      "score": 508,
+      "boardState": "2,16,2,16,0,4,16,64,0,0,4,16,0,0,0,2",
+      "moveTime": 764,
+      "tilesAdded": 1,
+      "tilesRemoved": 0,
+      "isBadMove": true,
+      "expectimaxScores": {
+        "up": 1559415362.6476195,
+        "right": 767807522.6476195,
+        "down": 0,
+        "left": 0
+      }
+    },
+    {
+      "sessionId": "20250802_155229_gsay8",
+      "playerName": "Peter",
+      "gameMode": "countdown",
+      "moveNumber": 68,
+      "timestamp": "2025-08-02T03:52:56.375Z",
+      "direction": "Left",
+      "score": 512,
+      "boardState": "0,0,0,16,2,0,2,64,0,16,16,16,2,4,4,2",
+      "moveTime": 386,
+      "tilesAdded": 1,
+      "tilesRemoved": 1,
+      "isBadMove": true,
+      "expectimaxScores": {
+        "up": 1600833011.5963254,
+        "right": 767795659.098413,
+        "down": 763044851.5963254,
+        "left": 767815419.098413
+      }
+    },
+    {
+      "sessionId": "20250802_155229_gsay8",
+      "playerName": "Peter",
+      "gameMode": "countdown",
+      "moveNumber": 69,
+      "timestamp": "2025-08-02T03:52:56.762Z",
+      "direction": "Right",
+      "score": 512,
+      "boardState": "4,16,2,16,0,4,16,64,0,0,4,16,0,0,2,2",
+      "moveTime": 387,
+      "tilesAdded": 1,
+      "tilesRemoved": 0,
+      "isBadMove": true,
+      "expectimaxScores": {
+        "up": 1559402915.5492065,
+        "right": 770873304.6476195,
+        "down": 767814135.5492065,
+        "left": 0
+      }
+    },
+    {
+      "sessionId": "20250802_155229_gsay8",
+      "playerName": "Peter",
+      "gameMode": "countdown",
+      "moveNumber": 70,
+      "timestamp": "2025-08-02T03:52:57.437Z",
+      "direction": "Left",
+      "score": 512,
+      "boardState": "0,0,2,16,0,2,16,64,0,16,4,16,4,4,2,2",
+      "moveTime": 675,
+      "tilesAdded": 1,
+      "tilesRemoved": 0,
+      "isBadMove": true,
+      "expectimaxScores": {
+        "up": 1562287989.3968465,
+        "right": 0,
+        "down": 770859229.3968464,
+        "left": 767828710.196826
+      }
+    },
+    {
+      "sessionId": "20250802_155229_gsay8",
+      "playerName": "Peter",
+      "gameMode": "countdown",
+      "moveNumber": 71,
+      "timestamp": "2025-08-02T03:52:57.764Z",
+      "direction": "Down",
+      "score": 560,
+      "boardState": "4,2,2,16,2,16,16,64,0,4,4,16,0,0,2,2",
+      "moveTime": 326,
+      "tilesAdded": 1,
+      "tilesRemoved": 4,
+      "isBadMove": true,
+      "expectimaxScores": {
+        "up": 1603910190.047119,
+        "right": 770894375.7460326,
+        "down": 809040918.3455523,
+        "left": 0
+      }
+    },
+    {
+      "sessionId": "20250802_155229_gsay8",
+      "playerName": "Peter",
+      "gameMode": "countdown",
+      "moveNumber": 72,
+      "timestamp": "2025-08-02T03:52:58.163Z",
+      "direction": "Down",
+      "score": 568,
+      "boardState": "2,4,4,16,0,2,32,64,0,0,8,16,0,0,0,4",
+      "moveTime": 400,
+      "tilesAdded": 1,
+      "tilesRemoved": 1,
+      "isBadMove": true,
+      "expectimaxScores": {
+        "up": 1603716471.894759,
+        "right": 855447955.5963254,
+        "down": 809040471.8947588,
+        "left": 0
+      }
+    },
+    {
+      "sessionId": "20250802_155229_gsay8",
+      "playerName": "Peter",
+      "gameMode": "countdown",
+      "moveNumber": 73,
+      "timestamp": "2025-08-02T03:52:59.272Z",
+      "direction": "Left",
+      "score": 572,
+      "boardState": "0,2,8,16,0,2,32,64,0,4,8,16,0,0,0,4",
+      "moveTime": 1109,
+      "tilesAdded": 1,
+      "tilesRemoved": 1,
+      "isBadMove": true,
+      "expectimaxScores": {
+        "up": 1603715493.894759,
+        "right": 855421264.7963458,
+        "down": 0,
+        "left": 809025061.0947793
+      }
+    },
+    {
+      "sessionId": "20250802_155229_gsay8",
+      "playerName": "Peter",
+      "gameMode": "countdown",
+      "moveNumber": 74,
+      "timestamp": "2025-08-02T03:52:59.701Z",
+      "direction": "Left",
+      "score": 580,
+      "boardState": "0,4,8,16,0,4,32,64,0,0,8,16,0,0,2,4",
+      "moveTime": 429,
+      "tilesAdded": 1,
+      "tilesRemoved": 1,
+      "isBadMove": true,
+      "expectimaxScores": {
+        "up": 1603702230.3455524,
+        "right": 809215726.6439857,
+        "down": 0,
+        "left": 809024666.6439857
+      }
+    },
+    {
+      "sessionId": "20250802_155229_gsay8",
+      "playerName": "Peter",
+      "gameMode": "countdown",
+      "moveNumber": 75,
+      "timestamp": "2025-08-02T03:53:00.117Z",
+      "direction": "Down",
+      "score": 596,
+      "boardState": "0,8,8,16,0,0,32,64,0,2,8,16,0,0,2,4",
+      "moveTime": 416,
+      "tilesAdded": 1,
+      "tilesRemoved": 1,
+      "isBadMove": true,
+      "expectimaxScores": {
+        "up": 1506593185.7958045,
+        "right": 809216732.1931922,
+        "down": 805989249.5963254,
+        "left": 809024272.1931922
+      }
+    },
+    {
+      "sessionId": "20250802_155229_gsay8",
+      "playerName": "Peter",
+      "gameMode": "countdown",
+      "moveNumber": 76,
+      "timestamp": "2025-08-02T03:53:00.538Z",
+      "direction": "Left",
+      "score": 600,
+      "boardState": "0,0,16,16,0,0,32,64,0,2,8,16,0,2,2,4",
+      "moveTime": 420,
+      "tilesAdded": 1,
+      "tilesRemoved": 1,
+      "isBadMove": true,
+      "expectimaxScores": {
+        "up": 1506770870.5450313,
+        "right": 805998494.0471189,
+        "down": 761174962.2465979,
+        "left": 805987214.0471189
+      }
+    },
+    {
+      "sessionId": "20250802_155229_gsay8",
+      "playerName": "Peter",
+      "gameMode": "countdown",
+      "moveNumber": 77,
+      "timestamp": "2025-08-02T03:53:01.276Z",
+      "direction": "Down",
+      "score": 632,
+      "boardState": "0,4,16,16,0,0,32,64,0,2,8,16,0,0,2,4",
+      "moveTime": 738,
+      "tilesAdded": 1,
+      "tilesRemoved": 1,
+      "isBadMove": true,
+      "expectimaxScores": {
+        "up": 1555861847.7958045,
+        "right": 805998799.5963254,
+        "down": 761173867.7958044,
+        "left": 805986819.5963254
+      }
+    },
+    {
+      "sessionId": "20250802_155229_gsay8",
+      "playerName": "Peter",
+      "gameMode": "countdown",
+      "moveNumber": 78,
+      "timestamp": "2025-08-02T03:53:01.770Z",
+      "direction": "Left",
+      "score": 632,
+      "boardState": "4,0,4,32,0,0,32,64,0,2,8,16,0,0,2,4",
+      "moveTime": 495,
+      "tilesAdded": 1,
+      "tilesRemoved": 0,
+      "isBadMove": true,
+      "expectimaxScores": {
+        "up": 1555486366.0942378,
+        "right": 761183417.7958044,
+        "down": 760978866.0942378,
+        "left": 761182717.7958044
+      }
+    },
+    {
+      "sessionId": "20250802_155229_gsay8",
+      "playerName": "Peter",
+      "gameMode": "countdown",
+      "moveNumber": 79,
+      "timestamp": "2025-08-02T03:53:02.550Z",
+      "direction": "Left",
+      "score": 636,
+      "boardState": "4,2,4,32,0,0,32,64,0,0,8,16,0,2,2,4",
+      "moveTime": 780,
+      "tilesAdded": 1,
+      "tilesRemoved": 1,
+      "isBadMove": true,
+      "expectimaxScores": {
+        "up": 1552404890.5450313,
+        "right": 761182134.2465979,
+        "down": 761182134.2465979,
+        "left": 761171554.2465979
+      }
+    },
+    {
+      "sessionId": "20250802_155229_gsay8",
+      "playerName": "Peter",
+      "gameMode": "countdown",
+      "moveNumber": 80,
+      "timestamp": "2025-08-02T03:53:02.894Z",
+      "direction": "Down",
+      "score": 648,
+      "boardState": "4,4,4,32,0,0,32,64,0,0,8,16,2,0,2,4",
+      "moveTime": 344,
+      "tilesAdded": 1,
+      "tilesRemoved": 2,
+      "isBadMove": true,
+      "expectimaxScores": {
+        "up": 1601639243.294258,
+        "right": 761204351.7958044,
+        "down": 760976246.9958248,
+        "left": 761171911.7958044
+      }
+    },
+    {
+      "sessionId": "20250802_155229_gsay8",
+      "playerName": "Peter",
+      "gameMode": "countdown",
+      "moveNumber": 81,
+      "timestamp": "2025-08-02T03:53:04.050Z",
+      "direction": "Right",
+      "score": 648,
+      "boardState": "0,4,8,32,0,2,32,64,0,0,8,16,0,0,4,4",
+      "moveTime": 1156,
+      "tilesAdded": 1,
+      "tilesRemoved": 0,
+      "isBadMove": true,
+      "expectimaxScores": {
+        "up": 1601661408.8434649,
+        "right": 760987132.5450313,
+        "down": 760962308.8434647,
+        "left": 0
+      }
+    },
+    {
+      "sessionId": "20250802_155229_gsay8",
+      "playerName": "Peter",
+      "gameMode": "countdown",
+      "moveNumber": 82,
+      "timestamp": "2025-08-02T03:53:04.339Z",
+      "direction": "Left",
+      "score": 648,
+      "boardState": "0,0,8,32,0,0,32,64,4,4,8,16,0,2,4,4",
+      "moveTime": 289,
+      "tilesAdded": 1,
+      "tilesRemoved": 0,
+      "isBadMove": true,
+      "expectimaxScores": {
+        "up": 1547843020.7445102,
+        "right": 760996734.5450313,
+        "down": 761140999.1418982,
+        "left": 760974874.5450313
+      }
+    },
+    {
+      "sessionId": "20250802_155229_gsay8",
+      "playerName": "Peter",
+      "gameMode": "countdown",
+      "moveNumber": 83,
+      "timestamp": "2025-08-02T03:53:04.832Z",
+      "direction": "Down",
+      "score": 668,
+      "boardState": "4,4,8,32,2,2,32,64,0,0,8,16,0,0,4,4",
+      "moveTime": 493,
+      "tilesAdded": 1,
+      "tilesRemoved": 3,
+      "isBadMove": true,
+      "expectimaxScores": {
+        "up": 1598780480.9958248,
+        "right": 760997740.0942378,
+        "down": 760947203.5926917,
+        "left": 0
+      }
+    },
+    {
+      "sessionId": "20250802_155229_gsay8",
+      "playerName": "Peter",
+      "gameMode": "countdown",
+      "moveNumber": 84,
+      "timestamp": "2025-08-02T03:53:05.181Z",
+      "direction": "Down",
+      "score": 684,
+      "boardState": "0,8,8,32,0,4,32,64,0,0,8,16,0,2,0,8",
+      "moveTime": 348,
+      "tilesAdded": 1,
+      "tilesRemoved": 1,
+      "isBadMove": true,
+      "expectimaxScores": {
+        "up": 1598971146.5450313,
+        "right": 807342149.1418982,
+        "down": 757922366.5450313,
+        "left": 760946809.1418982
+      }
+    },
+    {
+      "sessionId": "20250802_155229_gsay8",
+      "playerName": "Peter",
+      "gameMode": "countdown",
+      "moveNumber": 85,
+      "timestamp": "2025-08-02T03:53:05.929Z",
+      "direction": "Left",
+      "score": 684,
+      "boardState": "2,0,16,32,0,4,32,64,0,0,8,16,0,0,2,8",
+      "moveTime": 748,
+      "tilesAdded": 1,
+      "tilesRemoved": 0,
+      "isBadMove": true,
+      "expectimaxScores": {
+        "up": 1598980580.0942378,
+        "right": 757921220.0942378,
+        "down": 757921220.0942378,
+        "left": 757909940.0942378
+      }
+    },
+    {
+      "sessionId": "20250802_155229_gsay8",
+      "playerName": "Peter",
+      "gameMode": "countdown",
+      "moveNumber": 86,
+      "timestamp": "2025-08-02T03:53:06.596Z",
+      "direction": "Left",
+      "score": 684,
+      "boardState": "2,4,16,32,0,0,32,64,0,2,8,16,0,0,2,8",
+      "moveTime": 668,
+      "tilesAdded": 1,
+      "tilesRemoved": 0,
+      "isBadMove": true,
+      "expectimaxScores": {
+        "up": 1555678417.6434443,
+        "right": 757922225.6434443,
+        "down": 0,
+        "left": 757909545.6434443
+      }
+    },
+    {
+      "sessionId": "20250802_155229_gsay8",
+      "playerName": "Peter",
+      "gameMode": "countdown",
+      "moveNumber": 87,
+      "timestamp": "2025-08-02T03:53:06.965Z",
+      "direction": "Left",
+      "score": 688,
+      "boardState": "2,4,16,32,0,2,32,64,0,0,8,16,0,2,2,8",
+      "moveTime": 369,
+      "tilesAdded": 1,
+      "tilesRemoved": 1,
+      "isBadMove": true,
+      "expectimaxScores": {
+        "up": 1598776562.0942378,
+        "right": 758087178.3926712,
+        "down": 757908262.0942378,
+        "left": 757908962.0942378
+      }
+    },
+    {
+      "sessionId": "20250802_155229_gsay8",
+      "playerName": "Peter",
+      "gameMode": "countdown",
+      "moveNumber": 88,
+      "timestamp": "2025-08-02T03:53:07.376Z",
+      "direction": "Left",
+      "score": 696,
+      "boardState": "2,4,16,32,0,4,32,64,0,0,8,16,0,2,2,8",
+      "moveTime": 411,
+      "tilesAdded": 1,
+      "tilesRemoved": 1,
+      "isBadMove": true,
+      "expectimaxScores": {
+        "up": 1598763298.5450313,
+        "right": 758088883.9418777,
+        "down": 757907678.5450313,
+        "left": 757895023.9418777
+      }
+    },
+    {
+      "sessionId": "20250802_155229_gsay8",
+      "playerName": "Peter",
+      "gameMode": "countdown",
+      "moveNumber": 89,
+      "timestamp": "2025-08-02T03:53:07.742Z",
+      "direction": "Down",
+      "score": 696,
+      "boardState": "2,8,16,32,0,2,32,64,4,0,8,16,0,0,2,8",
+      "moveTime": 366,
+      "tilesAdded": 1,
+      "tilesRemoved": 0,
+      "isBadMove": true,
+      "expectimaxScores": {
+        "up": 1598784905.9418778,
+        "right": 758097785.9418777,
+        "down": 757904625.9418777,
+        "left": 757915905.9418777
+      }
+    },
+    {
+      "sessionId": "20250802_155229_gsay8",
+      "playerName": "Peter",
+      "gameMode": "countdown",
+      "moveNumber": 90,
+      "timestamp": "2025-08-02T03:53:08.148Z",
+      "direction": "Left",
+      "score": 700,
+      "boardState": "2,8,16,32,2,2,32,64,0,4,8,16,0,0,2,8",
+      "moveTime": 406,
+      "tilesAdded": 1,
+      "tilesRemoved": 1,
+      "isBadMove": true,
+      "expectimaxScores": {
+        "up": 1598772342.3926713,
+        "right": 758095802.3926712,
+        "down": 757892762.3926712,
+        "left": 757903342.3926712
+      }
+    },
+    {
+      "sessionId": "20250802_155229_gsay8",
+      "playerName": "Peter",
+      "gameMode": "countdown",
+      "moveNumber": 91,
+      "timestamp": "2025-08-02T03:53:08.688Z",
+      "direction": "Down",
+      "score": 704,
+      "boardState": "4,8,16,32,0,2,32,64,0,4,8,16,0,2,2,8",
+      "moveTime": 540,
+      "tilesAdded": 1,
+      "tilesRemoved": 1,
+      "isBadMove": true,
+      "expectimaxScores": {
+        "up": 1598771058.8434649,
+        "right": 757914927.9418777,
+        "down": 757902058.8434647,
+        "left": 0
+      }
+    },
+    {
+      "sessionId": "20250802_155229_gsay8",
+      "playerName": "Peter",
+      "gameMode": "countdown",
+      "moveNumber": 92,
+      "timestamp": "2025-08-02T03:53:09.094Z",
+      "direction": "Left",
+      "score": 704,
+      "boardState": "4,8,16,32,0,2,32,64,0,4,8,16,2,0,4,8",
+      "moveTime": 406,
+      "tilesAdded": 1,
+      "tilesRemoved": 0,
+      "isBadMove": true,
+      "expectimaxScores": {
+        "up": 1598780544.3926713,
+        "right": 758105404.3926712,
+        "down": 757901664.3926712,
+        "left": 757902364.3926712
+      }
+    },
+    {
+      "sessionId": "20250802_155229_gsay8",
+      "playerName": "Peter",
+      "gameMode": "countdown",
+      "moveNumber": 93,
+      "timestamp": "2025-08-02T03:53:09.498Z",
+      "direction": "Down",
+      "score": 708,
+      "boardState": "4,8,16,32,2,2,32,64,2,4,8,16,0,0,4,8",
+      "moveTime": 404,
+      "tilesAdded": 1,
+      "tilesRemoved": 1,
+      "isBadMove": true,
+      "expectimaxScores": {
+        "up": 1598949912.8434649,
+        "right": 758249197.1418982,
+        "down": 757890552.8434647,
+        "left": 757912360.8434647
+      }
+    },
+    {
+      "sessionId": "20250802_155229_gsay8",
+      "playerName": "Peter",
+      "gameMode": "countdown",
+      "moveNumber": 94,
+      "timestamp": "2025-08-02T03:53:09.892Z",
+      "direction": "Left",
+      "score": 716,
+      "boardState": "4,8,16,32,0,4,32,64,2,4,8,16,0,2,4,8",
+      "moveTime": 394,
+      "tilesAdded": 1,
+      "tilesRemoved": 1,
+      "isBadMove": true,
+      "expectimaxScores": {
+        "up": 1598771138.3926713,
+        "right": 763706868.0942378,
+        "down": 0,
+        "left": 757876562.6911047
+      }
+    },
+    {
+      "sessionId": "20250802_155229_gsay8",
+      "playerName": "Peter",
+      "gameMode": "countdown",
+      "moveNumber": 95,
+      "timestamp": "2025-08-02T03:53:10.235Z",
+      "direction": "Left",
+      "score": 736,
+      "boardState": "4,8,16,32,2,8,32,64,0,2,8,16,2,0,4,8",
+      "moveTime": 343,
+      "tilesAdded": 1,
+      "tilesRemoved": 2,
+      "isBadMove": false,
+      "expectimaxScores": {
+        "up": 761149468.2403111,
+        "right": 763872520.8434647,
+        "down": 757876868.2403111,
+        "left": 757739164.5450313
+      }
+    },
+    {
+      "sessionId": "20250802_155229_gsay8",
+      "playerName": "Peter",
+      "gameMode": "countdown",
+      "moveNumber": 96,
+      "timestamp": "2025-08-02T03:53:10.536Z",
+      "direction": "Down",
+      "score": 768,
+      "boardState": "4,16,16,32,4,2,32,64,0,0,8,16,0,2,4,8",
+      "moveTime": 301,
+      "tilesAdded": 1,
+      "tilesRemoved": 1,
+      "isBadMove": true,
+      "expectimaxScores": {
+        "up": 1584289131.894759,
+        "right": 763849377.2942582,
+        "down": 709870390.2937168,
+        "left": 757713057.2942582
+      }
+    },
+    {
+      "sessionId": "20250802_155229_gsay8",
+      "playerName": "Peter",
+      "gameMode": "countdown",
+      "moveNumber": 97,
+      "timestamp": "2025-08-02T03:53:11.811Z",
+      "direction": "Down",
+      "score": 832,
+      "boardState": "0,4,32,32,4,2,32,64,2,0,8,16,0,2,4,8",
+      "moveTime": 1275,
+      "tilesAdded": 1,
+      "tilesRemoved": 1,
+      "isBadMove": true,
+      "expectimaxScores": {
+        "up": 1581220525.4439654,
+        "right": 1479562012.6439857,
+        "down": 904505.4439653605,
+        "left": 1430100724.3455524
+      }
+    },
+    {
+      "sessionId": "20250802_155229_gsay8",
+      "playerName": "Peter",
+      "gameMode": "countdown",
+      "moveNumber": 98,
+      "timestamp": "2025-08-02T03:53:12.495Z",
+      "direction": "Left",
+      "score": 964,
+      "boardState": "0,0,4,64,4,2,32,64,2,2,8,16,0,2,4,8",
+      "moveTime": 683,
+      "tilesAdded": 1,
+      "tilesRemoved": 2,
+      "isBadMove": true,
+      "expectimaxScores": {
+        "up": 1581207961.894759,
+        "right": 12402332405.428066,
+        "down": 913101.8947588503,
+        "left": -167759094.57193297
+      }
+    },
+    {
+      "sessionId": "20250802_155229_gsay8",
+      "playerName": "Peter",
+      "gameMode": "countdown",
+      "moveNumber": 99,
+      "timestamp": "2025-08-02T03:53:13.462Z",
+      "direction": "Down",
+      "score": 992,
+      "boardState": "4,4,4,128,2,2,32,16,0,2,8,8,0,0,4,0",
+      "moveTime": 968,
+      "tilesAdded": 1,
+      "tilesRemoved": 3,
+      "isBadMove": true,
+      "expectimaxScores": {
+        "up": 12454677131.580427,
+        "right": 12402498810.177294,
+        "down": -168115228.4195729,
+        "left": -167760378.12113947
+      }
+    },
+    {
+      "sessionId": "20250802_155229_gsay8",
+      "playerName": "Peter",
+      "gameMode": "countdown",
+      "moveNumber": 100,
+      "timestamp": "2025-08-02T03:53:13.695Z",
+      "direction": "Down",
+      "score": 996,
+      "boardState": "0,4,8,128,0,4,32,16,0,2,2,16,0,0,0,4",
+      "moveTime": 232,
+      "tilesAdded": 1,
+      "tilesRemoved": 1,
+      "isBadMove": true,
+      "expectimaxScores": {
+        "up": 12454474908.031221,
+        "right": 12400828289.627546,
+        "down": -168116511.9687794,
+        "left": -216009630.37245402
+      }
+    },
+    {
+      "sessionId": "20250802_155229_gsay8",
+      "playerName": "Peter",
+      "gameMode": "countdown",
+      "moveNumber": 101,
+      "timestamp": "2025-08-02T03:53:13.904Z",
+      "direction": "Down",
+      "score": 996,
+      "boardState": "0,4,8,128,0,4,32,16,0,0,4,16,0,2,0,4",
+      "moveTime": 210,
+      "tilesAdded": 1,
+      "tilesRemoved": 0,
+      "isBadMove": true,
+      "expectimaxScores": {
+        "up": 12454485093.580427,
+        "right": 12400815726.078339,
+        "down": -168116906.4195729,
+        "left": -216010213.9216605
+      }
+    },
+    {
+      "sessionId": "20250802_155229_gsay8",
+      "playerName": "Peter",
+      "gameMode": "countdown",
+      "moveNumber": 102,
+      "timestamp": "2025-08-02T03:53:14.124Z",
+      "direction": "Down",
+      "score": 1000,
+      "boardState": "0,4,8,128,0,4,32,16,0,0,4,16,2,0,2,4",
+      "moveTime": 219,
+      "tilesAdded": 1,
+      "tilesRemoved": 1,
+      "isBadMove": true,
+      "expectimaxScores": {
+        "up": 12454459686.329655,
+        "right": 12400825963.627546,
+        "down": -168116789.9687794,
+        "left": -216009856.37245402
+      }
+    },
+    {
+      "sessionId": "20250802_155229_gsay8",
+      "playerName": "Peter",
+      "gameMode": "countdown",
+      "moveNumber": 103,
+      "timestamp": "2025-08-02T03:53:14.347Z",
+      "direction": "Down",
+      "score": 1008,
+      "boardState": "0,4,8,128,0,4,32,16,0,0,4,16,0,2,4,4",
+      "moveTime": 224,
+      "tilesAdded": 1,
+      "tilesRemoved": 1,
+      "isBadMove": true,
+      "expectimaxScores": {
+        "up": 12454651051.87886,
+        "right": 12400800504.376774,
+        "down": -168131428.12113947,
+        "left": -215844955.6232271
+      }
+    },
+    {
+      "sessionId": "20250802_155229_gsay8",
+      "playerName": "Peter",
+      "gameMode": "countdown",
+      "moveNumber": 104,
+      "timestamp": "2025-08-02T03:53:14.546Z",
+      "direction": "Down",
+      "score": 1008,
+      "boardState": "0,4,8,128,0,4,32,16,2,0,4,16,0,0,2,8",
+      "moveTime": 199,
+      "tilesAdded": 1,
+      "tilesRemoved": 0,
+      "isBadMove": true,
+      "expectimaxScores": {
+        "up": 12454843117.428066,
+        "right": 12400630961.92598,
+        "down": -168131822.57193297,
+        "left": -216025078.07402056
+      }
+    },
+    {
+      "sessionId": "20250802_155229_gsay8",
+      "playerName": "Peter",
+      "gameMode": "countdown",
+      "moveNumber": 105,
+      "timestamp": "2025-08-02T03:53:15.407Z",
+      "direction": "Left",
+      "score": 1048,
+      "boardState": "2,4,8,128,0,4,32,16,0,2,4,16,0,0,2,8",
+      "moveTime": 861,
+      "tilesAdded": 1,
+      "tilesRemoved": 2,
+      "isBadMove": true,
+      "expectimaxScores": {
+        "up": -158713417.02272645,
+        "right": 12400812447.475185,
+        "down": 0,
+        "left": -216025472.52481407
+      }
+    },
+    {
+      "sessionId": "20250802_155229_gsay8",
+      "playerName": "Peter",
+      "gameMode": "countdown",
+      "moveNumber": 106,
+      "timestamp": "2025-08-02T03:53:15.689Z",
+      "direction": "Down",
+      "score": 1128,
+      "boardState": "2,8,8,128,0,2,32,32,0,2,4,8,0,0,2,0",
+      "moveTime": 282,
+      "tilesAdded": 1,
+      "tilesRemoved": 2,
+      "isBadMove": true,
+      "expectimaxScores": {
+        "up": 13906572340.028568,
+        "right": 12400809763.92598,
+        "down": -284245039.9714323,
+        "left": -216026756.07402056
+      }
+    },
+    {
+      "sessionId": "20250802_155229_gsay8",
+      "playerName": "Peter",
+      "gameMode": "countdown",
+      "moveNumber": 107,
+      "timestamp": "2025-08-02T03:53:15.865Z",
+      "direction": "Down",
+      "score": 1132,
+      "boardState": "0,2,16,128,0,0,2,64,0,2,4,8,0,2,0,2",
+      "moveTime": 176,
+      "tilesAdded": 1,
+      "tilesRemoved": 1,
+      "isBadMove": true,
+      "expectimaxScores": {
+        "up": 13906570356.47936,
+        "right": -281166235.5206388,
+        "down": -284246323.5206388,
+        "left": -284246375.5206388
+      }
+    },
+    {
+      "sessionId": "20250802_155229_gsay8",
+      "playerName": "Peter",
+      "gameMode": "countdown",
+      "moveNumber": 108,
+      "timestamp": "2025-08-02T03:53:16.062Z",
+      "direction": "Down",
+      "score": 1132,
+      "boardState": "0,2,16,128,0,0,2,64,0,2,4,8,0,2,0,4",
+      "moveTime": 197,
+      "tilesAdded": 1,
+      "tilesRemoved": 0,
+      "isBadMove": true,
+      "expectimaxScores": {
+        "up": 13906582642.028568,
+        "right": -281178099.0698453,
+        "down": -284246717.9714323,
+        "left": -284247659.0698453
+      }
+    },
+    {
+      "sessionId": "20250802_155229_gsay8",
+      "playerName": "Peter",
+      "gameMode": "countdown",
+      "moveNumber": 109,
+      "timestamp": "2025-08-02T03:53:16.260Z",
+      "direction": "Down",
+      "score": 1136,
+      "boardState": "2,2,16,128,0,0,2,64,0,2,4,8,0,0,2,4",
+      "moveTime": 198,
+      "tilesAdded": 1,
+      "tilesRemoved": 1,
+      "isBadMove": true,
+      "expectimaxScores": {
+        "up": 13906569378.47936,
+        "right": -284237473.5206388,
+        "down": -284248001.5206388,
+        "left": -284248753.5206388
+      }
+    },
+    {
+      "sessionId": "20250802_155229_gsay8",
+      "playerName": "Peter",
+      "gameMode": "countdown",
+      "moveNumber": 110,
+      "timestamp": "2025-08-02T03:53:16.462Z",
+      "direction": "Down",
+      "score": 1140,
+      "boardState": "0,4,16,128,0,0,2,64,2,2,4,8,0,0,2,4",
+      "moveTime": 202,
+      "tilesAdded": 1,
+      "tilesRemoved": 1,
+      "isBadMove": true,
+      "expectimaxScores": {
+        "up": 13909112256.631721,
+        "right": -284235767.9714323,
+        "down": -284237305.0698453,
+        "left": -284248447.9714323
+      }
+    },
+    {
+      "sessionId": "20250802_155229_gsay8",
+      "playerName": "Peter",
+      "gameMode": "countdown",
+      "moveNumber": 111,
+      "timestamp": "2025-08-02T03:53:16.672Z",
+      "direction": "Down",
+      "score": 1152,
+      "boardState": "0,4,16,128,0,0,2,64,0,4,4,8,2,0,2,4",
+      "moveTime": 210,
+      "tilesAdded": 1,
+      "tilesRemoved": 2,
+      "isBadMove": true,
+      "expectimaxScores": {
+        "up": 13908894337.380949,
+        "right": -284071515.2222054,
+        "down": -284082284.32061845,
+        "left": -284263275.2222054
+      }
+    },
+    {
+      "sessionId": "20250802_155229_gsay8",
+      "playerName": "Peter",
+      "gameMode": "countdown",
+      "moveNumber": 112,
+      "timestamp": "2025-08-02T03:53:16.879Z",
+      "direction": "Down",
+      "score": 1176,
+      "boardState": "0,4,16,128,0,0,2,64,0,0,8,8,0,2,4,4",
+      "moveTime": 206,
+      "tilesAdded": 1,
+      "tilesRemoved": 2,
+      "isBadMove": true,
+      "expectimaxScores": {
+        "up": 13909458694.930155,
+        "right": -284071398.7714119,
+        "down": -284436025.0698453,
+        "left": -284081978.7714119
+      }
+    },
+    {
+      "sessionId": "20250802_155229_gsay8",
+      "playerName": "Peter",
+      "gameMode": "countdown",
+      "moveNumber": 113,
+      "timestamp": "2025-08-02T03:53:17.076Z",
+      "direction": "Down",
+      "score": 1180,
+      "boardState": "0,4,16,128,0,0,2,64,0,0,0,16,2,0,2,8",
+      "moveTime": 198,
+      "tilesAdded": 1,
+      "tilesRemoved": 1,
+      "isBadMove": true,
+      "expectimaxScores": {
+        "up": 13909446131.380949,
+        "right": -281368500.6190519,
+        "down": -284426028.6190519,
+        "left": -284438060.6190519
+      }
+    },
+    {
+      "sessionId": "20250802_155229_gsay8",
+      "playerName": "Peter",
+      "gameMode": "countdown",
+      "moveNumber": 114,
+      "timestamp": "2025-08-02T03:53:17.279Z",
+      "direction": "Down",
+      "score": 1180,
+      "boardState": "0,4,16,128,0,0,2,64,0,0,0,16,2,0,4,8",
+      "moveTime": 202,
+      "tilesAdded": 1,
+      "tilesRemoved": 0,
+      "isBadMove": true,
+      "expectimaxScores": {
+        "up": 13909469048.930155,
+        "right": -281358315.0698453,
+        "down": -284425671.0698453,
+        "left": -284427175.0698453
+      }
+    },
+    {
+      "sessionId": "20250802_155229_gsay8",
+      "playerName": "Peter",
+      "gameMode": "countdown",
+      "moveNumber": 115,
+      "timestamp": "2025-08-02T03:53:18.283Z",
+      "direction": "Right",
+      "score": 1180,
+      "boardState": "2,4,16,128,0,0,2,64,0,0,0,16,0,2,4,8",
+      "moveTime": 1005,
+      "tilesAdded": 1,
+      "tilesRemoved": 0,
+      "isBadMove": true,
+      "expectimaxScores": {
+        "up": 1296083114.479361,
+        "right": -281336149.5206388,
+        "down": 0,
+        "left": -284426869.5206388
+      }
+    },
+    {
+      "sessionId": "20250802_155229_gsay8",
+      "playerName": "Peter",
+      "gameMode": "countdown",
+      "moveNumber": 116,
+      "timestamp": "2025-08-02T03:53:18.626Z",
+      "direction": "Down",
+      "score": 1184,
+      "boardState": "2,0,0,128,0,0,16,64,0,4,2,16,2,2,4,8",
+      "moveTime": 343,
+      "tilesAdded": 1,
+      "tilesRemoved": 1,
+      "isBadMove": true,
+      "expectimaxScores": {
+        "up": 13126541360.631721,
+        "right": -281326853.0698453,
+        "down": -281348013.0698453,
+        "left": -284427453.0698453
+      }
+    },
+    {
+      "sessionId": "20250802_155229_gsay8",
+      "playerName": "Peter",
+      "gameMode": "countdown",
+      "moveNumber": 117,
+      "timestamp": "2025-08-02T03:53:18.814Z",
+      "direction": "Down",
+      "score": 1192,
+      "boardState": "0,0,2,128,2,0,16,64,0,4,2,16,0,4,4,8",
+      "moveTime": 188,
+      "tilesAdded": 1,
+      "tilesRemoved": 1,
+      "isBadMove": true,
+      "expectimaxScores": {
+        "up": 13912001906.180927,
+        "right": -281193451.2222054,
+        "down": -281349919.2222054,
+        "left": -281182171.2222054
+      }
+    },
+    {
+      "sessionId": "20250802_155229_gsay8",
+      "playerName": "Peter",
+      "gameMode": "countdown",
+      "moveNumber": 118,
+      "timestamp": "2025-08-02T03:53:19.018Z",
+      "direction": "Down",
+      "score": 1212,
+      "boardState": "0,0,2,128,2,2,16,64,0,4,2,16,0,0,8,8",
+      "moveTime": 204,
+      "tilesAdded": 1,
+      "tilesRemoved": 2,
+      "isBadMove": true,
+      "expectimaxScores": {
+        "up": 13911989342.631721,
+        "right": -281372925.6729989,
+        "down": -281498597.36827874,
+        "left": -281360945.6729989
+      }
+    },
+    {
+      "sessionId": "20250802_155229_gsay8",
+      "playerName": "Peter",
+      "gameMode": "countdown",
+      "moveNumber": 119,
+      "timestamp": "2025-08-02T03:53:19.230Z",
+      "direction": "Down",
+      "score": 1220,
+      "boardState": "0,0,2,128,4,4,16,64,0,4,2,16,0,0,0,16",
+      "moveTime": 212,
+      "tilesAdded": 1,
+      "tilesRemoved": 1,
+      "isBadMove": true,
+      "expectimaxScores": {
+        "up": 13911974120.930155,
+        "right": 12284159005.129633,
+        "down": -281333339.0698453,
+        "left": -283024354.8703664
+      }
+    },
+    {
+      "sessionId": "20250802_155229_gsay8",
+      "playerName": "Peter",
+      "gameMode": "countdown",
+      "moveNumber": 120,
+      "timestamp": "2025-08-02T03:53:19.512Z",
+      "direction": "Left",
+      "score": 1252,
+      "boardState": "0,0,2,128,0,8,16,64,0,4,2,16,4,0,0,16",
+      "moveTime": 281,
+      "tilesAdded": 1,
+      "tilesRemoved": 1,
+      "isBadMove": true,
+      "expectimaxScores": {
+        "up": 13918120742.930155,
+        "right": 12284158027.129633,
+        "down": -281335017.0698453,
+        "left": -283026032.8703664
+      }
+    },
+    {
+      "sessionId": "20250802_155229_gsay8",
+      "playerName": "Peter",
+      "gameMode": "countdown",
+      "moveNumber": 121,
+      "timestamp": "2025-08-02T03:53:19.829Z",
+      "direction": "Down",
+      "score": 1252,
+      "boardState": "4,8,2,128,0,4,16,64,4,0,2,32,0,0,0,0",
+      "moveTime": 318,
+      "tilesAdded": 1,
+      "tilesRemoved": 0,
+      "isBadMove": true,
+      "expectimaxScores": {
+        "up": 1343109769.1296337,
+        "right": 12284323285.428066,
+        "down": -283015730.8703664,
+        "left": -283039854.571933
+      }
+    },
+    {
+      "sessionId": "20250802_155229_gsay8",
+      "playerName": "Peter",
+      "gameMode": "countdown",
+      "moveNumber": 122,
+      "timestamp": "2025-08-02T03:53:20.033Z",
+      "direction": "Down",
+      "score": 1252,
+      "boardState": "4,8,2,128,0,4,16,64,0,4,2,32,0,0,2,0",
+      "moveTime": 203,
+      "tilesAdded": 1,
+      "tilesRemoved": 0,
+      "isBadMove": true,
+      "expectimaxScores": {
+        "up": 1343109374.6788402,
+        "right": 12286858547.281994,
+        "down": -283016125.3211599,
+        "left": -283041138.12113947
+      }
+    },
+    {
+      "sessionId": "20250802_155229_gsay8",
+      "playerName": "Peter",
+      "gameMode": "countdown",
+      "moveNumber": 123,
+      "timestamp": "2025-08-02T03:53:21.174Z",
+      "direction": "Right",
+      "score": 1260,
+      "boardState": "4,8,2,128,0,4,16,64,2,4,2,32,0,0,0,2",
+      "moveTime": 1141,
+      "tilesAdded": 1,
+      "tilesRemoved": 1,
+      "isBadMove": true,
+      "expectimaxScores": {
+        "up": 1343121012.2280467,
+        "right": -280277746.07038677,
+        "down": 0,
+        "left": -283040643.4735199
+      }
+    },
+    {
+      "sessionId": "20250802_155229_gsay8",
+      "playerName": "Peter",
+      "gameMode": "countdown",
+      "moveNumber": 124,
+      "timestamp": "2025-08-02T03:53:21.439Z",
+      "direction": "Down",
+      "score": 1264,
+      "boardState": "0,0,4,128,0,0,2,64,4,8,16,32,2,8,2,2",
+      "moveTime": 266,
+      "tilesAdded": 1,
+      "tilesRemoved": 1,
+      "isBadMove": true,
+      "expectimaxScores": {
+        "up": 13171222661.428066,
+        "right": -280279424.07038677,
+        "down": -283031878.571933,
+        "left": -280313264.07038677
+      }
+    },
+    {
+      "sessionId": "20250802_155229_gsay8",
+      "playerName": "Peter",
+      "gameMode": "countdown",
+      "moveNumber": 125,
+      "timestamp": "2025-08-02T03:53:21.631Z",
+      "direction": "Down",
+      "score": 1268,
+      "boardState": "0,0,4,128,0,0,2,64,4,8,16,32,2,2,8,4",
+      "moveTime": 192,
+      "tilesAdded": 1,
+      "tilesRemoved": 1,
+      "isBadMove": true,
+      "expectimaxScores": {
+        "up": 13171210797.87886,
+        "right": 0,
+        "down": -283044442.12113947,
+        "left": -283054185.0227265
+      }
+    },
+    {
+      "sessionId": "20250802_155229_gsay8",
+      "playerName": "Peter",
+      "gameMode": "countdown",
+      "moveNumber": 126,
+      "timestamp": "2025-08-02T03:53:22.447Z",
+      "direction": "Left",
+      "score": 1268,
+      "boardState": "0,2,4,128,0,0,2,64,4,8,16,32,0,4,8,4",
+      "moveTime": 816,
+      "tilesAdded": 1,
+      "tilesRemoved": 0,
+      "isBadMove": true,
+      "expectimaxScores": {
+        "up": 13959559775.428066,
+        "right": -283055468.571933,
+        "down": 0,
+        "left": -282842548.571933
+      }
+    },
+    {
+      "sessionId": "20250802_155229_gsay8",
+      "playerName": "Peter",
+      "gameMode": "countdown",
+      "moveNumber": 127,
+      "timestamp": "2025-08-02T03:53:22.697Z",
+      "direction": "Down",
+      "score": 1268,
+      "boardState": "4,2,4,128,0,8,2,64,0,4,16,32,2,0,8,4",
+      "moveTime": 250,
+      "tilesAdded": 1,
+      "tilesRemoved": 0,
+      "isBadMove": true,
+      "expectimaxScores": {
+        "up": 1343271276.9772735,
+        "right": -283045283.0227265,
+        "down": -282842943.0227265,
+        "left": -282842943.0227265
+      }
+    },
+    {
+      "sessionId": "20250802_155229_gsay8",
+      "playerName": "Peter",
+      "gameMode": "countdown",
+      "moveNumber": 128,
+      "timestamp": "2025-08-02T03:53:22.907Z",
+      "direction": "Down",
+      "score": 1272,
+      "boardState": "4,2,4,128,0,8,2,64,0,4,16,32,2,2,8,4",
+      "moveTime": 210,
+      "tilesAdded": 1,
+      "tilesRemoved": 1,
+      "isBadMove": true,
+      "expectimaxScores": {
+        "up": 1343259413.428067,
+        "right": -282841937.4735199,
+        "down": -282854806.571933,
+        "left": -282843337.4735199
+      }
+    },
+    {
+      "sessionId": "20250802_155229_gsay8",
+      "playerName": "Peter",
+      "gameMode": "countdown",
+      "moveNumber": 129,
+      "timestamp": "2025-08-02T03:53:23.360Z",
+      "direction": "Left",
+      "score": 1280,
+      "boardState": "4,2,4,128,0,8,2,64,0,4,16,32,2,4,8,4",
+      "moveTime": 453,
+      "tilesAdded": 1,
+      "tilesRemoved": 1,
+      "isBadMove": true,
+      "expectimaxScores": {
+        "up": 1343270350.9772735,
+        "right": -280490119.3211599,
+        "down": 0,
+        "left": -282856764.724293
+      }
+    },
+    {
+      "sessionId": "20250802_155229_gsay8",
+      "playerName": "Peter",
+      "gameMode": "countdown",
+      "moveNumber": 130,
+      "timestamp": "2025-08-02T03:53:23.665Z",
+      "direction": "Down",
+      "score": 1280,
+      "boardState": "4,2,4,128,2,8,2,64,0,8,16,32,2,0,8,4",
+      "moveTime": 305,
+      "tilesAdded": 1,
+      "tilesRemoved": 0,
+      "isBadMove": false,
+      "expectimaxScores": {
+        "up": -184484979.1750865,
+        "right": -280707286.571933,
+        "down": -282857159.1750865,
+        "left": -277230782.8703664
+      }
+    },
+    {
+      "sessionId": "20250802_155229_gsay8",
+      "playerName": "Peter",
+      "gameMode": "countdown",
+      "moveNumber": 131,
+      "timestamp": "2025-08-02T03:53:24.518Z",
+      "direction": "Right",
+      "score": 1300,
+      "boardState": "4,2,4,128,2,8,2,64,2,8,16,32,0,2,8,4",
+      "moveTime": 852,
+      "tilesAdded": 1,
+      "tilesRemoved": 2,
+      "isBadMove": false,
+      "expectimaxScores": {
+        "up": -282855453.62588,
+        "right": -280322761.0227265,
+        "down": 0,
+        "left": -277231177.3211599
+      }
+    },
+    {
+      "sessionId": "20250802_155229_gsay8",
+      "playerName": "Peter",
+      "gameMode": "countdown",
+      "moveNumber": 132,
+      "timestamp": "2025-08-02T03:53:24.918Z",
+      "direction": "Down",
+      "score": 1336,
+      "boardState": "2,0,4,128,0,2,2,64,4,16,16,32,4,2,8,4",
+      "moveTime": 400,
+      "tilesAdded": 1,
+      "tilesRemoved": 2,
+      "isBadMove": true,
+      "expectimaxScores": {
+        "up": 14675251968.930155,
+        "right": -280323155.4735199,
+        "down": -238865292.6708874,
+        "left": -277063935.4735199
+      }
+    },
+    {
+      "sessionId": "20250802_155229_gsay8",
+      "playerName": "Peter",
+      "gameMode": "countdown",
+      "moveNumber": 133,
+      "timestamp": "2025-08-02T03:53:25.245Z",
+      "direction": "Left",
+      "score": 1348,
+      "boardState": "0,2,4,128,0,2,4,64,0,4,32,32,4,2,8,4",
+      "moveTime": 328,
+      "tilesAdded": 1,
+      "tilesRemoved": 2,
+      "isBadMove": true,
+      "expectimaxScores": {
+        "up": 14675262854.47936,
+        "right": -238880171.92166054,
+        "down": -306956525.5206388,
+        "left": -239096755.62322712
+      }
+    },
+    {
+      "sessionId": "20250802_155229_gsay8",
+      "playerName": "Peter",
+      "gameMode": "countdown",
+      "moveNumber": 134,
+      "timestamp": "2025-08-02T03:53:25.449Z",
+      "direction": "Left",
+      "score": 1356,
+      "boardState": "4,4,8,128,0,4,32,64,0,2,8,32,2,0,0,4",
+      "moveTime": 204,
+      "tilesAdded": 1,
+      "tilesRemoved": 1,
+      "isBadMove": true,
+      "expectimaxScores": {
+        "up": 13951390307.329113,
+        "right": -238712930.07402056,
+        "down": -239097150.07402056,
+        "left": -239096450.07402056
+      }
+    },
+    {
+      "sessionId": "20250802_155229_gsay8",
+      "playerName": "Peter",
+      "gameMode": "countdown",
+      "moveNumber": 135,
+      "timestamp": "2025-08-02T03:53:25.653Z",
+      "direction": "Left",
+      "score": 1360,
+      "boardState": "4,8,8,128,2,2,32,64,2,0,8,32,0,0,0,4",
+      "moveTime": 204,
+      "tilesAdded": 1,
+      "tilesRemoved": 1,
+      "isBadMove": true,
+      "expectimaxScores": {
+        "up": 13212130911.779905,
+        "right": -238727757.32479364,
+        "down": -242134208.22009397,
+        "left": -239086453.62322712
+      }
+    },
+    {
+      "sessionId": "20250802_155229_gsay8",
+      "playerName": "Peter",
+      "gameMode": "countdown",
+      "moveNumber": 136,
+      "timestamp": "2025-08-02T03:53:25.956Z",
+      "direction": "Down",
+      "score": 1376,
+      "boardState": "4,8,8,128,4,2,32,64,2,0,8,32,0,0,0,4",
+      "moveTime": 303,
+      "tilesAdded": 1,
+      "tilesRemoved": 1,
+      "isBadMove": true,
+      "expectimaxScores": {
+        "up": 13166143409.329113,
+        "right": -238546271.77558714,
+        "down": -242111290.6708874,
+        "left": -239110271.77558714
+      }
+    },
+    {
+      "sessionId": "20250802_155229_gsay8",
+      "playerName": "Peter",
+      "gameMode": "countdown",
+      "moveNumber": 137,
+      "timestamp": "2025-08-02T03:53:26.202Z",
+      "direction": "Down",
+      "score": 1380,
+      "boardState": "0,4,16,128,4,2,32,64,2,2,8,32,0,0,0,4",
+      "moveTime": 246,
+      "tilesAdded": 1,
+      "tilesRemoved": 1,
+      "isBadMove": true,
+      "expectimaxScores": {
+        "up": 13166120965.779905,
+        "right": -239056557.92166054,
+        "down": -242101994.22009397,
+        "left": -242135186.22009397
+      }
+    },
+    {
+      "sessionId": "20250802_155229_gsay8",
+      "playerName": "Peter",
+      "gameMode": "countdown",
+      "moveNumber": 138,
+      "timestamp": "2025-08-02T03:53:26.428Z",
+      "direction": "Down",
+      "score": 1380,
+      "boardState": "0,4,16,128,4,2,32,64,0,4,8,32,2,0,0,4",
+      "moveTime": 226,
+      "tilesAdded": 1,
+      "tilesRemoved": 0,
+      "isBadMove": true,
+      "expectimaxScores": {
+        "up": 13166131151.329113,
+        "right": -239034280.6708874,
+        "down": -242102388.6708874,
+        "left": -242124300.6708874
+      }
+    },
+    {
+      "sessionId": "20250802_155229_gsay8",
+      "playerName": "Peter",
+      "gameMode": "countdown",
+      "moveNumber": 139,
+      "timestamp": "2025-08-02T03:53:26.654Z",
+      "direction": "Down",
+      "score": 1380,
+      "boardState": "0,4,16,128,4,2,32,64,0,4,8,32,4,0,2,4",
+      "moveTime": 226,
+      "tilesAdded": 1,
+      "tilesRemoved": 0,
+      "isBadMove": true,
+      "expectimaxScores": {
+        "up": 13166130173.329113,
+        "right": -242128942.372454,
+        "down": -242092086.6708874,
+        "left": -241959742.372454
+      }
+    },
+    {
+      "sessionId": "20250802_155229_gsay8",
+      "playerName": "Peter",
+      "gameMode": "countdown",
+      "moveNumber": 140,
+      "timestamp": "2025-08-02T03:53:27.362Z",
+      "direction": "Left",
+      "score": 1388,
+      "boardState": "2,4,16,128,4,2,32,64,0,4,8,32,0,4,2,4",
+      "moveTime": 708,
+      "tilesAdded": 1,
+      "tilesRemoved": 1,
+      "isBadMove": false,
+      "expectimaxScores": {
+        "up": -192651593.12168092,
+        "right": -241948156.8232475,
+        "down": 0,
+        "left": -241936876.8232475
+      }
+    },
+    {
+      "sessionId": "20250802_155229_gsay8",
+      "playerName": "Peter",
+      "gameMode": "countdown",
+      "moveNumber": 141,
+      "timestamp": "2025-08-02T03:53:28.023Z",
+      "direction": "Down",
+      "score": 1408,
+      "boardState": "2,4,16,128,4,2,32,64,0,8,8,32,2,0,2,4",
+      "moveTime": 661,
+      "tilesAdded": 1,
+      "tilesRemoved": 2,
+      "isBadMove": false,
+      "expectimaxScores": {
+        "up": -143929958.6708874,
+        "right": -241926691.274041,
+        "down": -242278014.96932083,
+        "left": -241937271.274041
+      }
+    },
+    {
+      "sessionId": "20250802_155229_gsay8",
+      "playerName": "Peter",
+      "gameMode": "countdown",
+      "moveNumber": 142,
+      "timestamp": "2025-08-02T03:53:28.242Z",
+      "direction": "Down",
+      "score": 1416,
+      "boardState": "2,4,16,128,4,2,32,64,0,0,16,32,2,0,4,4",
+      "moveTime": 219,
+      "tilesAdded": 1,
+      "tilesRemoved": 1,
+      "isBadMove": false,
+      "expectimaxScores": {
+        "up": -143727313.12168092,
+        "right": -242276257.42011434,
+        "down": -242291953.12168092,
+        "left": -242277657.42011434
+      }
+    },
+    {
+      "sessionId": "20250802_155229_gsay8",
+      "playerName": "Peter",
+      "gameMode": "countdown",
+      "moveNumber": 143,
+      "timestamp": "2025-08-02T03:53:28.499Z",
+      "direction": "Down",
+      "score": 1420,
+      "boardState": "2,4,16,128,4,2,32,64,0,0,16,32,2,0,2,8",
+      "moveTime": 257,
+      "tilesAdded": 1,
+      "tilesRemoved": 1,
+      "isBadMove": false,
+      "expectimaxScores": {
+        "up": -143751156.6708874,
+        "right": -242289495.57247442,
+        "down": -242293236.6708874,
+        "left": -242291595.57247442
+      }
+    },
+    {
+      "sessionId": "20250802_155229_gsay8",
+      "playerName": "Peter",
+      "gameMode": "countdown",
+      "moveNumber": 144,
+      "timestamp": "2025-08-02T03:53:29.399Z",
+      "direction": "Right",
+      "score": 1424,
+      "boardState": "2,4,16,128,4,2,32,64,0,2,16,32,0,0,4,8",
+      "moveTime": 900,
+      "tilesAdded": 1,
+      "tilesRemoved": 1,
+      "isBadMove": false,
+      "expectimaxScores": {
+        "up": -189931171.12168092,
+        "right": -242148691.92166054,
+        "down": 0,
+        "left": -242304400.22009397
+      }
+    },
+    {
+      "sessionId": "20250802_155229_gsay8",
+      "playerName": "Peter",
+      "gameMode": "countdown",
+      "moveNumber": 145,
+      "timestamp": "2025-08-02T03:53:29.797Z",
+      "direction": "Down",
+      "score": 1432,
+      "boardState": "0,0,16,128,2,0,32,64,2,4,16,32,4,4,4,8",
+      "moveTime": 398,
+      "tilesAdded": 1,
+      "tilesRemoved": 1,
+      "isBadMove": true,
+      "expectimaxScores": {
+        "up": 13951374793.627546,
+        "right": -242137995.47086704,
+        "down": -242328166.372454,
+        "left": -242343351.1724336
+      }
+    },
+    {
+      "sessionId": "20250802_155229_gsay8",
+      "playerName": "Peter",
+      "gameMode": "countdown",
+      "moveNumber": 146,
+      "timestamp": "2025-08-02T03:53:30.051Z",
+      "direction": "Down",
+      "score": 1448,
+      "boardState": "0,2,16,128,0,2,32,64,2,4,16,32,0,4,8,8",
+      "moveTime": 254,
+      "tilesAdded": 1,
+      "tilesRemoved": 1,
+      "isBadMove": true,
+      "expectimaxScores": {
+        "up": 13217936064.579885,
+        "right": -242343045.62322712,
+        "down": -242466075.42011434,
+        "left": -242343745.62322712
+      }
+    },
+    {
+      "sessionId": "20250802_155229_gsay8",
+      "playerName": "Peter",
+      "gameMode": "countdown",
+      "moveNumber": 147,
+      "timestamp": "2025-08-02T03:53:30.425Z",
+      "direction": "Down",
+      "score": 1452,
+      "boardState": "2,2,16,128,0,2,32,64,2,4,16,32,0,0,4,16",
+      "moveTime": 374,
+      "tilesAdded": 1,
+      "tilesRemoved": 1,
+      "isBadMove": true,
+      "expectimaxScores": {
+        "up": 13217934081.03068,
+        "right": -242478880.06773388,
+        "down": -242468058.96932083,
+        "left": -242493823.76930046
+      }
+    },
+    {
+      "sessionId": "20250802_155229_gsay8",
+      "playerName": "Peter",
+      "gameMode": "countdown",
+      "moveNumber": 148,
+      "timestamp": "2025-08-02T03:53:30.818Z",
+      "direction": "Right",
+      "score": 1452,
+      "boardState": "0,4,16,128,0,2,32,64,2,4,16,32,0,2,4,16",
+      "moveTime": 393,
+      "tilesAdded": 1,
+      "tilesRemoved": 0,
+      "isBadMove": true,
+      "expectimaxScores": {
+        "up": 13214867626.579885,
+        "right": -242468505.42011434,
+        "down": 0,
+        "left": -242469205.42011434
+      }
+    },
+    {
+      "sessionId": "20250802_155229_gsay8",
+      "playerName": "Peter",
+      "gameMode": "countdown",
+      "moveNumber": 149,
+      "timestamp": "2025-08-02T03:53:31.227Z",
+      "direction": "Down",
+      "score": 1456,
+      "boardState": "0,4,16,128,0,2,32,64,2,4,16,32,2,2,4,16",
+      "moveTime": 408,
+      "tilesAdded": 1,
+      "tilesRemoved": 1,
+      "isBadMove": true,
+      "expectimaxScores": {
+        "up": 13217739079.329113,
+        "right": -242459208.96932083,
+        "down": -242468336.96932083,
+        "left": -242469788.96932083
+      }
+    },
+    {
+      "sessionId": "20250802_155229_gsay8",
+      "playerName": "Peter",
+      "gameMode": "countdown",
+      "moveNumber": 150,
+      "timestamp": "2025-08-02T03:53:31.426Z",
+      "direction": "Down",
+      "score": 1464,
+      "boardState": "0,4,16,128,0,2,32,64,2,4,16,32,2,4,4,16",
+      "moveTime": 200,
+      "tilesAdded": 1,
+      "tilesRemoved": 1,
+      "isBadMove": true,
+      "expectimaxScores": {
+        "up": 13215032884.878319,
+        "right": -242304136.22009397,
+        "down": -242482975.12168092,
+        "left": -242303436.22009397
+      }
+    },
+    {
+      "sessionId": "20250802_155229_gsay8",
+      "playerName": "Peter",
+      "gameMode": "countdown",
+      "moveNumber": 151,
+      "timestamp": "2025-08-02T03:53:31.636Z",
+      "direction": "Down",
+      "score": 1468,
+      "boardState": "0,4,16,128,2,2,32,64,2,4,16,32,0,2,8,16",
+      "moveTime": 209,
+      "tilesAdded": 1,
+      "tilesRemoved": 1,
+      "isBadMove": true,
+      "expectimaxScores": {
+        "up": 13215020321.329113,
+        "right": -242473730.6708874,
+        "down": -242494138.6708874,
+        "left": -242484310.6708874
+      }
+    },
+    {
+      "sessionId": "20250802_155229_gsay8",
+      "playerName": "Peter",
+      "gameMode": "countdown",
+      "moveNumber": 152,
+      "timestamp": "2025-08-02T03:53:32.041Z",
+      "direction": "Right",
+      "score": 1480,
+      "boardState": "0,4,16,128,2,4,32,64,2,4,16,32,0,2,8,16",
+      "moveTime": 406,
+      "tilesAdded": 1,
+      "tilesRemoved": 2,
+      "isBadMove": true,
+      "expectimaxScores": {
+        "up": 13119546706.878319,
+        "right": -242307377.92166054,
+        "down": 0,
+        "left": -242510417.92166054
+      }
+    },
+    {
+      "sessionId": "20250802_155229_gsay8",
+      "playerName": "Peter",
+      "gameMode": "countdown",
+      "moveNumber": 153,
+      "timestamp": "2025-08-02T03:53:32.976Z",
+      "direction": "Left",
+      "score": 1480,
+      "boardState": "0,0,16,128,0,4,32,64,2,8,16,32,4,2,8,16",
+      "moveTime": 935,
+      "tilesAdded": 1,
+      "tilesRemoved": 0,
+      "isBadMove": true,
+      "expectimaxScores": {
+        "up": 13947751747.627546,
+        "right": 0,
+        "down": 0,
+        "left": -242319052.372454
+      }
+    },
+    {
+      "sessionId": "20250802_155229_gsay8",
+      "playerName": "Peter",
+      "gameMode": "countdown",
+      "moveNumber": 154,
+      "timestamp": "2025-08-02T03:53:33.958Z",
+      "direction": "Right",
+      "score": 1488,
+      "boardState": "2,4,16,128,4,8,32,64,4,2,16,32,0,0,8,16",
+      "moveTime": 982,
+      "tilesAdded": 1,
+      "tilesRemoved": 1,
+      "isBadMove": false,
+      "expectimaxScores": {
+        "up": -239421070.372454,
+        "right": -242141814.07402056,
+        "down": 0,
+        "left": -242152394.07402056
+      }
+    },
+    {
+      "sessionId": "20250802_155229_gsay8",
+      "playerName": "Peter",
+      "gameMode": "countdown",
+      "moveNumber": 155,
+      "timestamp": "2025-08-02T03:53:34.424Z",
+      "direction": "Left",
+      "score": 1488,
+      "boardState": "0,2,16,128,0,4,32,64,2,8,16,32,8,2,8,16",
+      "moveTime": 466,
+      "tilesAdded": 1,
+      "tilesRemoved": 0,
+      "isBadMove": true,
+      "expectimaxScores": {
+        "up": 13208862991.475185,
+        "right": 0,
+        "down": 0,
+        "left": -241961028.52481407
+      }
+    },
+    {
+      "sessionId": "20250802_155229_gsay8",
+      "playerName": "Peter",
+      "gameMode": "countdown",
+      "moveNumber": 156,
+      "timestamp": "2025-08-02T03:53:35.220Z",
+      "direction": "Right",
+      "score": 1488,
+      "boardState": "2,2,16,128,8,4,32,64,2,8,16,32,0,2,8,16",
+      "moveTime": 796,
+      "tilesAdded": 1,
+      "tilesRemoved": 0,
+      "isBadMove": true,
+      "expectimaxScores": {
+        "up": 13119876639.92598,
+        "right": -242141202.97560757,
+        "down": -241972840.07402056,
+        "left": 0
+      }
+    },
+    {
+      "sessionId": "20250802_155229_gsay8",
+      "playerName": "Peter",
+      "gameMode": "countdown",
+      "moveNumber": 157,
+      "timestamp": "2025-08-02T03:53:35.539Z",
+      "direction": "Down",
+      "score": 1512,
+      "boardState": "2,2,16,128,2,4,32,64,8,8,16,32,2,2,8,16",
+      "moveTime": 318,
+      "tilesAdded": 1,
+      "tilesRemoved": 3,
+      "isBadMove": true,
+      "expectimaxScores": {
+        "up": 13890304863.580427,
+        "right": -242141786.52481407,
+        "down": -239606078.22009397,
+        "left": -241963406.52481407
+      }
+    },
+    {
+      "sessionId": "20250802_155229_gsay8",
+      "playerName": "Peter",
+      "gameMode": "countdown",
+      "moveNumber": 158,
+      "timestamp": "2025-08-02T03:53:35.782Z",
+      "direction": "Down",
+      "score": 1544,
+      "boardState": "2,4,16,128,2,4,32,64,0,16,16,32,0,4,8,16",
+      "moveTime": 244,
+      "tilesAdded": 1,
+      "tilesRemoved": 1,
+      "isBadMove": true,
+      "expectimaxScores": {
+        "up": 531333437.1296336,
+        "right": -239620957.47086704,
+        "down": -244340236.4714085,
+        "left": -239802837.47086704
+      }
+    },
+    {
+      "sessionId": "20250802_155229_gsay8",
+      "playerName": "Peter",
+      "gameMode": "countdown",
+      "moveNumber": 159,
+      "timestamp": "2025-08-02T03:53:36.830Z",
+      "direction": "Right",
+      "score": 1620,
+      "boardState": "2,4,16,128,2,4,32,64,0,0,32,32,2,4,8,16",
+      "moveTime": 1047,
+      "tilesAdded": 1,
+      "tilesRemoved": 3,
+      "isBadMove": false,
+      "expectimaxScores": {
+        "up": 528468674.6788401,
+        "right": 1218020945.8788605,
+        "down": -263138465.3211599,
+        "left": 475887185.87886053
+      }
+    },
+    {
+      "sessionId": "20250802_155229_gsay8",
+      "playerName": "Peter",
+      "gameMode": "countdown",
+      "moveNumber": 160,
+      "timestamp": "2025-08-02T03:53:37.208Z",
+      "direction": "Down",
+      "score": 1636,
+      "boardState": "0,4,0,128,0,0,16,64,2,4,64,32,4,8,8,16",
+      "moveTime": 379,
+      "tilesAdded": 1,
+      "tilesRemoved": 1,
+      "isBadMove": true,
+      "expectimaxScores": {
+        "up": 14769192653.481472,
+        "right": 1218007124.177294,
+        "down": 1214984945.2819936,
+        "left": 475748581.5804271
+      }
+    },
+    {
+      "sessionId": "20250802_155229_gsay8",
+      "playerName": "Peter",
+      "gameMode": "countdown",
+      "moveNumber": 161,
+      "timestamp": "2025-08-02T03:53:37.767Z",
+      "direction": "Down",
+      "score": 1668,
+      "boardState": "0,0,4,128,0,2,16,64,2,4,64,32,0,4,16,16",
+      "moveTime": 559,
+      "tilesAdded": 1,
+      "tilesRemoved": 1,
+      "isBadMove": true,
+      "expectimaxScores": {
+        "up": 14769204939.03068,
+        "right": 1214970255.1296337,
+        "down": 1216385759.0306792,
+        "left": 1215162715.1296337
+      }
+    },
+    {
+      "sessionId": "20250802_155229_gsay8",
+      "playerName": "Peter",
+      "gameMode": "countdown",
+      "moveNumber": 162,
+      "timestamp": "2025-08-02T03:53:38.218Z",
+      "direction": "Right",
+      "score": 1736,
+      "boardState": "0,0,4,128,0,2,16,64,2,4,64,32,2,0,4,32",
+      "moveTime": 451,
+      "tilesAdded": 1,
+      "tilesRemoved": 2,
+      "isBadMove": true,
+      "expectimaxScores": {
+        "up": 14670651832.579885,
+        "right": -1395902612.4507933,
+        "down": 1216384612.5798857,
+        "left": 458170505.0825147
+      }
+    },
+    {
+      "sessionId": "20250802_155229_gsay8",
+      "playerName": "Peter",
+      "gameMode": "countdown",
+      "moveNumber": 163,
+      "timestamp": "2025-08-02T03:53:38.919Z",
+      "direction": "Left",
+      "score": 1864,
+      "boardState": "0,0,4,0,2,0,16,128,0,2,64,64,4,4,4,64",
+      "moveTime": 700,
+      "tilesAdded": 1,
+      "tilesRemoved": 1,
+      "isBadMove": true,
+      "expectimaxScores": {
+        "up": 50709130830.46346,
+        "right": -1395903058.9015865,
+        "down": 11285767710.463463,
+        "left": 1031845346.1650294
+      }
+    },
+    {
+      "sessionId": "20250802_155229_gsay8",
+      "playerName": "Peter",
+      "gameMode": "countdown",
+      "moveNumber": 164,
+      "timestamp": "2025-08-02T03:53:40.187Z",
+      "direction": "Left",
+      "score": 2120,
+      "boardState": "2,2,4,128,4,4,16,128,0,0,64,0,0,2,4,0",
+      "moveTime": 1269,
+      "tilesAdded": 1,
+      "tilesRemoved": 1,
+      "isBadMove": true,
+      "expectimaxScores": {
+        "up": 38092110335.21269,
+        "right": -1395882993.3523808,
+        "down": -542000953.0857437,
+        "left": -1395892873.3523798
+      }
+    },
+    {
+      "sessionId": "20250802_155229_gsay8",
+      "playerName": "Peter",
+      "gameMode": "countdown",
+      "moveNumber": 165,
+      "timestamp": "2025-08-02T03:53:40.594Z",
+      "direction": "Down",
+      "score": 2132,
+      "boardState": "2,2,4,256,4,4,16,0,0,2,64,0,2,0,4,0",
+      "moveTime": 407,
+      "tilesAdded": 1,
+      "tilesRemoved": 2,
+      "isBadMove": true,
+      "expectimaxScores": {
+        "up": 200464077851.69528,
+        "right": -1395893319.803174,
+        "down": -2190426584.603153,
+        "left": -1395893319.803173
+      }
+    },
+    {
+      "sessionId": "20250802_155229_gsay8",
+      "playerName": "Peter",
+      "gameMode": "countdown",
+      "moveNumber": 166,
+      "timestamp": "2025-08-02T03:53:41.931Z",
+      "direction": "Down",
+      "score": 2140,
+      "boardState": "0,4,4,256,2,0,8,16,0,0,2,64,0,0,2,4",
+      "moveTime": 1336,
+      "tilesAdded": 1,
+      "tilesRemoved": 1,
+      "isBadMove": true,
+      "expectimaxScores": {
+        "up": 200470237089.24448,
+        "right": -2190427868.15236,
+        "down": -2190619550.755513,
+        "left": -2190428568.15236
+      }
+    },
+    {
+      "sessionId": "20250802_155229_gsay8",
+      "playerName": "Peter",
+      "gameMode": "countdown",
+      "moveNumber": 167,
+      "timestamp": "2025-08-02T03:53:42.436Z",
+      "direction": "Left",
+      "score": 2160,
+      "boardState": "2,0,8,256,0,2,8,16,0,0,2,64,0,0,2,4",
+      "moveTime": 506,
+      "tilesAdded": 1,
+      "tilesRemoved": 2,
+      "isBadMove": true,
+      "expectimaxScores": {
+        "up": 200467349662.7937,
+        "right": -2187701520.9015865,
+        "down": -2190619997.2063065,
+        "left": -2190770380.9015865
+      }
+    },
+    {
+      "sessionId": "20250802_155229_gsay8",
+      "playerName": "Peter",
+      "gameMode": "countdown",
+      "moveNumber": 168,
+      "timestamp": "2025-08-02T03:53:43.029Z",
+      "direction": "Right",
+      "score": 2164,
+      "boardState": "2,2,16,256,0,0,4,16,2,0,0,64,0,0,0,4",
+      "moveTime": 592,
+      "tilesAdded": 1,
+      "tilesRemoved": 1,
+      "isBadMove": true,
+      "expectimaxScores": {
+        "up": 200464287755.5492,
+        "right": -2187692224.4507933,
+        "down": -2190772364.4507933,
+        "left": -2190761084.4507933
+      }
+    },
+    {
+      "sessionId": "20250802_155229_gsay8",
+      "playerName": "Peter",
+      "gameMode": "countdown",
+      "moveNumber": 169,
+      "timestamp": "2025-08-02T03:53:43.542Z",
+      "direction": "Left",
+      "score": 2164,
+      "boardState": "0,0,0,256,2,0,0,16,0,0,16,64,4,2,4,4",
+      "moveTime": 514,
+      "tilesAdded": 1,
+      "tilesRemoved": 0,
+      "isBadMove": false,
+      "expectimaxScores": {
+        "up": -1395906562.6031532,
+        "right": -2187691866.9015865,
+        "down": -2187694882.603153,
+        "left": -2190748746.9015865
+      }
+    },
+    {
+      "sessionId": "20250802_155229_gsay8",
+      "playerName": "Peter",
+      "gameMode": "countdown",
+      "moveNumber": 170,
+      "timestamp": "2025-08-02T03:53:44.131Z",
+      "direction": "Down",
+      "score": 2176,
+      "boardState": "2,2,16,256,4,0,4,16,2,0,0,64,0,0,0,4",
+      "moveTime": 589,
+      "tilesAdded": 1,
+      "tilesRemoved": 2,
+      "isBadMove": true,
+      "expectimaxScores": {
+        "up": 200464272533.84763,
+        "right": -2187679529.35238,
+        "down": -2190786886.15236,
+        "left": 0
+      }
+    },
+    {
+      "sessionId": "20250802_155229_gsay8",
+      "playerName": "Peter",
+      "gameMode": "countdown",
+      "moveNumber": 171,
+      "timestamp": "2025-08-02T03:53:44.548Z",
+      "direction": "Down",
+      "score": 2176,
+      "boardState": "0,4,16,256,0,0,8,16,0,0,2,64,2,0,0,4",
+      "moveTime": 417,
+      "tilesAdded": 1,
+      "tilesRemoved": 0,
+      "isBadMove": true,
+      "expectimaxScores": {
+        "up": 200464272839.39685,
+        "right": -2187695860.603153,
+        "down": -2190786580.603153,
+        "left": -2190787280.603153
+      }
+    },
+    {
+      "sessionId": "20250802_155229_gsay8",
+      "playerName": "Peter",
+      "gameMode": "countdown",
+      "moveNumber": 172,
+      "timestamp": "2025-08-02T03:53:44.978Z",
+      "direction": "Right",
+      "score": 2180,
+      "boardState": "0,4,16,256,0,0,8,16,2,0,2,64,0,0,2,4",
+      "moveTime": 430,
+      "tilesAdded": 1,
+      "tilesRemoved": 1,
+      "isBadMove": true,
+      "expectimaxScores": {
+        "up": 200464259575.84763,
+        "right": -2187718304.15236,
+        "down": -2190788564.15236,
+        "left": -2190788564.15236
+      }
+    },
+    {
+      "sessionId": "20250802_155229_gsay8",
+      "playerName": "Peter",
+      "gameMode": "countdown",
+      "moveNumber": 173,
+      "timestamp": "2025-08-02T03:53:45.442Z",
+      "direction": "Down",
+      "score": 2220,
+      "boardState": "2,0,0,256,0,0,16,16,0,0,8,64,2,4,4,4",
+      "moveTime": 464,
+      "tilesAdded": 1,
+      "tilesRemoved": 2,
+      "isBadMove": true,
+      "expectimaxScores": {
+        "up": 200511872985.89474,
+        "right": -2187718887.7015667,
+        "down": -2238501734.105241,
+        "left": -2190789147.7015667
+      }
+    },
+    {
+      "sessionId": "20250802_155229_gsay8",
+      "playerName": "Peter",
+      "gameMode": "countdown",
+      "moveNumber": 174,
+      "timestamp": "2025-08-02T03:53:45.936Z",
+      "direction": "Left",
+      "score": 2220,
+      "boardState": "0,0,2,256,2,0,0,32,0,0,8,64,0,2,4,8",
+      "moveTime": 494,
+      "tilesAdded": 1,
+      "tilesRemoved": 0,
+      "isBadMove": true,
+      "expectimaxScores": {
+        "up": 200462781979.44397,
+        "right": -2238502180.556034,
+        "down": -2238502180.556034,
+        "left": -2238490200.5560346
+      }
+    },
+    {
+      "sessionId": "20250802_155229_gsay8",
+      "playerName": "Peter",
+      "gameMode": "countdown",
+      "moveNumber": 175,
+      "timestamp": "2025-08-02T03:53:46.338Z",
+      "direction": "Down",
+      "score": 2224,
+      "boardState": "2,2,2,256,0,0,8,32,0,0,4,64,2,0,0,8",
+      "moveTime": 402,
+      "tilesAdded": 1,
+      "tilesRemoved": 1,
+      "isBadMove": true,
+      "expectimaxScores": {
+        "up": 200511847995.89474,
+        "right": -2238492884.105241,
+        "down": -2238504164.105241,
+        "left": -2238480904.105241
+      }
+    },
+    {
+      "sessionId": "20250802_155229_gsay8",
+      "playerName": "Peter",
+      "gameMode": "countdown",
+      "moveNumber": 176,
+      "timestamp": "2025-08-02T03:53:46.645Z",
+      "direction": "Down",
+      "score": 2224,
+      "boardState": "0,2,4,256,2,0,8,32,0,0,4,64,0,0,2,8",
+      "moveTime": 307,
+      "tilesAdded": 1,
+      "tilesRemoved": 0,
+      "isBadMove": true,
+      "expectimaxScores": {
+        "up": 200511870861.44397,
+        "right": -2238503158.556034,
+        "down": -2238503858.556034,
+        "left": -2238503858.556034
+      }
+    },
+    {
+      "sessionId": "20250802_155229_gsay8",
+      "playerName": "Peter",
+      "gameMode": "countdown",
+      "moveNumber": 177,
+      "timestamp": "2025-08-02T03:53:47.317Z",
+      "direction": "Left",
+      "score": 2228,
+      "boardState": "0,2,4,256,0,2,8,32,0,2,4,64,0,0,2,8",
+      "moveTime": 672,
+      "tilesAdded": 1,
+      "tilesRemoved": 1,
+      "isBadMove": true,
+      "expectimaxScores": {
+        "up": 200462961786.99316,
+        "right": -2238494562.105241,
+        "down": 0,
+        "left": -2238505142.105241
+      }
+    },
+    {
+      "sessionId": "20250802_155229_gsay8",
+      "playerName": "Peter",
+      "gameMode": "countdown",
+      "moveNumber": 178,
+      "timestamp": "2025-08-02T03:53:47.578Z",
+      "direction": "Down",
+      "score": 2240,
+      "boardState": "0,4,4,256,0,2,8,32,0,0,4,64,0,2,2,8",
+      "moveTime": 261,
+      "tilesAdded": 1,
+      "tilesRemoved": 2,
+      "isBadMove": true,
+      "expectimaxScores": {
+        "up": 200560935482.64398,
+        "right": -2238328209.3560143,
+        "down": -2238698297.3560143,
+        "left": -2238505725.6544476
+      }
+    },
+    {
+      "sessionId": "20250802_155229_gsay8",
+      "playerName": "Peter",
+      "gameMode": "countdown",
+      "moveNumber": 179,
+      "timestamp": "2025-08-02T03:53:48.021Z",
+      "direction": "Right",
+      "score": 2264,
+      "boardState": "0,0,8,256,2,2,8,32,0,0,4,64,0,0,4,8",
+      "moveTime": 443,
+      "tilesAdded": 1,
+      "tilesRemoved": 2,
+      "isBadMove": true,
+      "expectimaxScores": {
+        "up": 200560912339.0948,
+        "right": -2235973402.105241,
+        "down": -2238688300.905221,
+        "left": -2238861082.105241
+      }
+    },
+    {
+      "sessionId": "20250802_155229_gsay8",
+      "playerName": "Peter",
+      "gameMode": "countdown",
+      "moveNumber": 180,
+      "timestamp": "2025-08-02T03:53:48.952Z",
+      "direction": "Down",
+      "score": 2284,
+      "boardState": "0,0,0,256,2,0,0,32,0,0,16,64,2,2,8,8",
+      "moveTime": 931,
+      "tilesAdded": 1,
+      "tilesRemoved": 2,
+      "isBadMove": false,
+      "expectimaxScores": {
+        "up": -1351929400.2513142,
+        "right": -2235963405.6544476,
+        "down": -2235943000.251314,
+        "left": -2238851785.6544476
+      }
+    },
+    {
+      "sessionId": "20250802_155229_gsay8",
+      "playerName": "Peter",
+      "gameMode": "countdown",
+      "moveNumber": 181,
+      "timestamp": "2025-08-02T03:53:49.312Z",
+      "direction": "Left",
+      "score": 2288,
+      "boardState": "0,0,2,256,0,0,2,32,0,0,16,64,0,0,4,16",
+      "moveTime": 360,
+      "tilesAdded": 1,
+      "tilesRemoved": 1,
+      "isBadMove": true,
+      "expectimaxScores": {
+        "up": 200465318905.29788,
+        "right": -2235944283.800521,
+        "down": 0,
+        "left": -2235944283.800521
+      }
+    },
+    {
+      "sessionId": "20250802_155229_gsay8",
+      "playerName": "Peter",
+      "gameMode": "countdown",
+      "moveNumber": 182,
+      "timestamp": "2025-08-02T03:53:50.255Z",
+      "direction": "Right",
+      "score": 2288,
+      "boardState": "0,2,4,256,0,0,16,32,0,0,4,64,0,0,0,16",
+      "moveTime": 943,
+      "tilesAdded": 1,
+      "tilesRemoved": 0,
+      "isBadMove": true,
+      "expectimaxScores": {
+        "up": 200511508521.7487,
+        "right": -2235944678.251314,
+        "down": 0,
+        "left": 0
+      }
+    },
+    {
+      "sessionId": "20250802_155229_gsay8",
+      "playerName": "Peter",
+      "gameMode": "countdown",
+      "moveNumber": 183,
+      "timestamp": "2025-08-02T03:53:50.646Z",
+      "direction": "Left",
+      "score": 2292,
+      "boardState": "0,0,0,256,0,0,4,32,0,2,16,64,0,2,4,16",
+      "moveTime": 390,
+      "tilesAdded": 1,
+      "tilesRemoved": 1,
+      "isBadMove": false,
+      "expectimaxScores": {
+        "up": -1302659732.7021074,
+        "right": -2235945261.800521,
+        "down": 0,
+        "left": -2235945261.800521
+      }
+    },
+    {
+      "sessionId": "20250802_155229_gsay8",
+      "playerName": "Peter",
+      "gameMode": "countdown",
+      "moveNumber": 184,
+      "timestamp": "2025-08-02T03:53:51.014Z",
+      "direction": "Down",
+      "score": 2300,
+      "boardState": "0,4,4,256,0,2,16,32,0,0,4,64,0,0,0,16",
+      "moveTime": 369,
+      "tilesAdded": 1,
+      "tilesRemoved": 1,
+      "isBadMove": true,
+      "expectimaxScores": {
+        "up": 200557720192.04712,
+        "right": -2235935076.251314,
+        "down": -2236138927.952881,
+        "left": 0
+      }
+    },
+    {
+      "sessionId": "20250802_155229_gsay8",
+      "playerName": "Peter",
+      "gameMode": "countdown",
+      "moveNumber": 185,
+      "timestamp": "2025-08-02T03:53:51.397Z",
+      "direction": "Right",
+      "score": 2304,
+      "boardState": "0,0,8,256,0,2,16,32,0,2,4,64,0,0,0,16",
+      "moveTime": 383,
+      "tilesAdded": 1,
+      "tilesRemoved": 1,
+      "isBadMove": true,
+      "expectimaxScores": {
+        "up": 200511528897.5963,
+        "right": -2235959783.5020876,
+        "down": 0,
+        "left": -2236140963.5020876
+      }
+    },
+    {
+      "sessionId": "20250802_155229_gsay8",
+      "playerName": "Peter",
+      "gameMode": "countdown",
+      "moveNumber": 186,
+      "timestamp": "2025-08-02T03:53:51.854Z",
+      "direction": "Left",
+      "score": 2304,
+      "boardState": "0,2,0,256,0,0,8,32,0,0,16,64,0,4,4,16",
+      "moveTime": 457,
+      "tilesAdded": 1,
+      "tilesRemoved": 0,
+      "isBadMove": true,
+      "expectimaxScores": {
+        "up": 200464735158.34555,
+        "right": -2235960177.952881,
+        "down": -2236154201.6544476,
+        "left": -2236130077.952881
+      }
+    },
+    {
+      "sessionId": "20250802_155229_gsay8",
+      "playerName": "Peter",
+      "gameMode": "countdown",
+      "moveNumber": 187,
+      "timestamp": "2025-08-02T03:53:52.211Z",
+      "direction": "Down",
+      "score": 2304,
+      "boardState": "0,2,8,256,0,4,16,32,0,0,4,64,0,2,0,16",
+      "moveTime": 357,
+      "tilesAdded": 1,
+      "tilesRemoved": 0,
+      "isBadMove": true,
+      "expectimaxScores": {
+        "up": 200511515187.5963,
+        "right": -2235949992.403674,
+        "down": -2236130472.403674,
+        "left": -2236130472.403674
+      }
+    },
+    {
+      "sessionId": "20250802_155229_gsay8",
+      "playerName": "Peter",
+      "gameMode": "countdown",
+      "moveNumber": 188,
+      "timestamp": "2025-08-02T03:53:52.613Z",
+      "direction": "Right",
+      "score": 2304,
+      "boardState": "0,2,8,256,0,4,16,32,2,0,4,64,0,0,2,16",
+      "moveTime": 402,
+      "tilesAdded": 1,
+      "tilesRemoved": 0,
+      "isBadMove": true,
+      "expectimaxScores": {
+        "up": 200468391353.14554,
+        "right": -2236130866.8544674,
+        "down": -2236130866.8544674,
+        "left": -2236130166.8544674
+      }
+    },
+    {
+      "sessionId": "20250802_155229_gsay8",
+      "playerName": "Peter",
+      "gameMode": "countdown",
+      "moveNumber": 189,
+      "timestamp": "2025-08-02T03:53:52.799Z",
+      "direction": "Left",
+      "score": 2308,
+      "boardState": "2,0,8,256,0,0,16,32,0,2,4,64,2,4,2,16",
+      "moveTime": 186,
+      "tilesAdded": 1,
+      "tilesRemoved": 1,
+      "isBadMove": true,
+      "expectimaxScores": {
+        "up": 200560628970.69473,
+        "right": -2236131450.403674,
+        "down": -2236130509.3052607,
+        "left": -2236120870.403674
+      }
+    },
+    {
+      "sessionId": "20250802_155229_gsay8",
+      "playerName": "Peter",
+      "gameMode": "countdown",
+      "moveNumber": 190,
+      "timestamp": "2025-08-02T03:53:53.459Z",
+      "direction": "Right",
+      "score": 2308,
+      "boardState": "4,2,8,256,0,4,16,32,0,0,4,64,2,0,2,16",
+      "moveTime": 660,
+      "tilesAdded": 1,
+      "tilesRemoved": 0,
+      "isBadMove": false,
+      "expectimaxScores": {
+        "up": -1302869253.9528809,
+        "right": -2236109984.8544674,
+        "down": -2236121453.952881,
+        "left": -2236121264.8544674
+      }
+    },
+    {
+      "sessionId": "20250802_155229_gsay8",
+      "playerName": "Peter",
+      "gameMode": "countdown",
+      "moveNumber": 191,
+      "timestamp": "2025-08-02T03:53:53.892Z",
+      "direction": "Down",
+      "score": 2308,
+      "boardState": "0,0,8,256,2,0,16,32,4,2,4,64,2,4,2,16",
+      "moveTime": 433,
+      "tilesAdded": 1,
+      "tilesRemoved": 0,
+      "isBadMove": true,
+      "expectimaxScores": {
+        "up": 199769051140.69473,
+        "right": 0,
+        "down": -2236109679.3052607,
+        "left": -2236119507.3052607
+      }
+    },
+    {
+      "sessionId": "20250802_155229_gsay8",
+      "playerName": "Peter",
+      "gameMode": "countdown",
+      "moveNumber": 192,
+      "timestamp": "2025-08-02T03:53:54.244Z",
+      "direction": "Left",
+      "score": 2312,
+      "boardState": "0,2,8,256,0,2,16,32,4,2,4,64,2,4,2,16",
+      "moveTime": 352,
+      "tilesAdded": 1,
+      "tilesRemoved": 1,
+      "isBadMove": true,
+      "expectimaxScores": {
+        "up": 199722848566.24396,
+        "right": -2236120842.8544674,
+        "down": 0,
+        "left": -2236132122.8544674
+      }
+    },
+    {
+      "sessionId": "20250802_155229_gsay8",
+      "playerName": "Peter",
+      "gameMode": "countdown",
+      "moveNumber": 193,
+      "timestamp": "2025-08-02T03:53:54.763Z",
+      "direction": "Down",
+      "score": 2332,
+      "boardState": "4,4,8,256,2,2,16,32,2,4,4,64,0,0,2,16",
+      "moveTime": 519,
+      "tilesAdded": 1,
+      "tilesRemoved": 3,
+      "isBadMove": true,
+      "expectimaxScores": {
+        "up": 200514224803.5963,
+        "right": -2235956590.105241,
+        "down": -2236171773.8068075,
+        "left": -2236122126.403674
+      }
+    },
+    {
+      "sessionId": "20250802_155229_gsay8",
+      "playerName": "Peter",
+      "gameMode": "countdown",
+      "moveNumber": 194,
+      "timestamp": "2025-08-02T03:53:55.350Z",
+      "direction": "Left",
+      "score": 2332,
+      "boardState": "0,8,8,256,0,4,16,32,0,2,8,64,2,0,2,16",
+      "moveTime": 587,
+      "tilesAdded": 1,
+      "tilesRemoved": 0,
+      "isBadMove": true,
+      "expectimaxScores": {
+        "up": 200514222820.04712,
+        "right": -2235979708.257601,
+        "down": -2239196799.952881,
+        "left": -2236172168.257601
+      }
+    },
+    {
+      "sessionId": "20250802_155229_gsay8",
+      "playerName": "Peter",
+      "gameMode": "countdown",
+      "moveNumber": 195,
+      "timestamp": "2025-08-02T03:53:55.738Z",
+      "direction": "Right",
+      "score": 2336,
+      "boardState": "2,8,8,256,0,4,16,32,0,2,8,64,0,2,2,16",
+      "moveTime": 388,
+      "tilesAdded": 1,
+      "tilesRemoved": 1,
+      "isBadMove": true,
+      "expectimaxScores": {
+        "up": 200468019493.5963,
+        "right": -2233255650.105241,
+        "down": -2239197946.403674,
+        "left": -2236172751.8068075
+      }
+    },
+    {
+      "sessionId": "20250802_155229_gsay8",
+      "playerName": "Peter",
+      "gameMode": "countdown",
+      "moveNumber": 196,
+      "timestamp": "2025-08-02T03:53:56.070Z",
+      "direction": "Left",
+      "score": 2348,
+      "boardState": "0,0,8,256,0,8,16,32,2,4,8,64,2,4,2,16",
+      "moveTime": 331,
+      "tilesAdded": 1,
+      "tilesRemoved": 2,
+      "isBadMove": true,
+      "expectimaxScores": {
+        "up": 199768797313.7424,
+        "right": -2233256933.6544476,
+        "down": 0,
+        "left": -2236186879.057581
+      }
+    },
+    {
+      "sessionId": "20250802_155229_gsay8",
+      "playerName": "Peter",
+      "gameMode": "countdown",
+      "moveNumber": 197,
+      "timestamp": "2025-08-02T03:53:56.392Z",
+      "direction": "Down",
+      "score": 2364,
+      "boardState": "4,8,8,256,0,8,16,32,2,0,8,64,0,0,2,16",
+      "moveTime": 323,
+      "tilesAdded": 1,
+      "tilesRemoved": 1,
+      "isBadMove": true,
+      "expectimaxScores": {
+        "up": 200467994391.89474,
+        "right": -2233234016.105241,
+        "down": -2239043268.105241,
+        "left": -2233448336.105241
+      }
+    },
+    {
+      "sessionId": "20250802_155229_gsay8",
+      "playerName": "Peter",
+      "gameMode": "countdown",
+      "moveNumber": 198,
+      "timestamp": "2025-08-02T03:53:56.755Z",
+      "direction": "Right",
+      "score": 2396,
+      "boardState": "2,4,16,256,0,8,16,32,0,2,8,64,0,0,2,16",
+      "moveTime": 362,
+      "tilesAdded": 1,
+      "tilesRemoved": 1,
+      "isBadMove": false,
+      "expectimaxScores": {
+        "up": -1349243422.556034,
+        "right": -2191426246.356555,
+        "down": 0,
+        "left": -2240721246.3565555
+      }
+    },
+    {
+      "sessionId": "20250802_155229_gsay8",
+      "playerName": "Peter",
+      "gameMode": "countdown",
+      "moveNumber": 199,
+      "timestamp": "2025-08-02T03:53:57.074Z",
+      "direction": "Down",
+      "score": 2480,
+      "boardState": "2,0,0,256,0,4,32,32,0,8,8,64,2,2,2,16",
+      "moveTime": 319,
+      "tilesAdded": 1,
+      "tilesRemoved": 3,
+      "isBadMove": true,
+      "expectimaxScores": {
+        "up": 200444287557.09842,
+        "right": -2191416949.9057617,
+        "down": -2996220122.9015865,
+        "left": -2240721829.9057617
+      }
+    },
+    {
+      "sessionId": "20250802_155229_gsay8",
+      "playerName": "Peter",
+      "gameMode": "countdown",
+      "moveNumber": 200,
+      "timestamp": "2025-08-02T03:53:57.688Z",
+      "direction": "Left",
+      "score": 2608,
+      "boardState": "0,0,2,256,0,4,4,64,0,0,16,64,0,2,4,16",
+      "moveTime": 615,
+      "tilesAdded": 1,
+      "tilesRemoved": 1,
+      "isBadMove": true,
+      "expectimaxScores": {
+        "up": 200444103835.39685,
+        "right": 198649317634.6317,
+        "down": -2996234644.603153,
+        "left": -3211053105.3682785
+      }
+    },
+    {
+      "sessionId": "20250802_155229_gsay8",
+      "playerName": "Peter",
+      "gameMode": "countdown",
+      "moveNumber": 201,
+      "timestamp": "2025-08-02T03:53:58.888Z",
+      "direction": "Left",
+      "score": 2612,
+      "boardState": "0,4,2,256,0,2,4,128,0,2,16,16,0,0,4,0",
+      "moveTime": 1200,
+      "tilesAdded": 1,
+      "tilesRemoved": 1,
+      "isBadMove": true,
+      "expectimaxScores": {
+        "up": 211362680504.3804,
+        "right": 198649472707.38095,
+        "down": -3215801395.6195927,
+        "left": -3211052988.917485
+      }
+    },
+    {
+      "sessionId": "20250802_155229_gsay8",
+      "playerName": "Peter",
+      "gameMode": "countdown",
+      "moveNumber": 202,
+      "timestamp": "2025-08-02T03:53:59.352Z",
+      "direction": "Down",
+      "score": 2652,
+      "boardState": "0,4,2,256,0,4,4,128,2,0,16,16,0,0,4,0",
+      "moveTime": 464,
+      "tilesAdded": 1,
+      "tilesRemoved": 2,
+      "isBadMove": true,
+      "expectimaxScores": {
+        "up": 223929837757.12964,
+        "right": 198649472312.93015,
+        "down": -3215635042.870366,
+        "left": -3210887147.069845
+      }
+    },
+    {
+      "sessionId": "20250802_155229_gsay8",
+      "playerName": "Peter",
+      "gameMode": "countdown",
+      "moveNumber": 203,
+      "timestamp": "2025-08-02T03:53:59.778Z",
+      "direction": "Left",
+      "score": 2652,
+      "boardState": "0,4,2,256,0,0,8,128,2,0,2,32,0,0,0,4",
+      "moveTime": 426,
+      "tilesAdded": 1,
+      "tilesRemoved": 0,
+      "isBadMove": true,
+      "expectimaxScores": {
+        "up": 223929814613.5804,
+        "right": -3215635437.3211594,
+        "down": -3215636326.419573,
+        "left": -3215635437.3211594
+      }
+    },
+    {
+      "sessionId": "20250802_155229_gsay8",
+      "playerName": "Peter",
+      "gameMode": "countdown",
+      "moveNumber": 204,
+      "timestamp": "2025-08-02T03:54:00.114Z",
+      "direction": "Left",
+      "score": 2660,
+      "boardState": "2,4,2,256,0,0,8,128,0,4,2,32,0,0,0,4",
+      "moveTime": 336,
+      "tilesAdded": 1,
+      "tilesRemoved": 1,
+      "isBadMove": true,
+      "expectimaxScores": {
+        "up": 22115646016.67884,
+        "right": -3215469479.022726,
+        "down": 0,
+        "left": -3215469479.022726
+      }
+    },
+    {
+      "sessionId": "20250802_155229_gsay8",
+      "playerName": "Peter",
+      "gameMode": "countdown",
+      "moveNumber": 205,
+      "timestamp": "2025-08-02T03:54:00.412Z",
+      "direction": "Down",
+      "score": 2660,
+      "boardState": "2,8,2,256,2,0,8,128,0,0,2,32,0,0,0,4",
+      "moveTime": 298,
+      "tilesAdded": 1,
+      "tilesRemoved": 0,
+      "isBadMove": true,
+      "expectimaxScores": {
+        "up": 22115644706.52648,
+        "right": -3215470762.571933,
+        "down": -3215469873.4735193,
+        "left": -3215470762.571933
+      }
+    },
+    {
+      "sessionId": "20250802_155229_gsay8",
+      "playerName": "Peter",
+      "gameMode": "countdown",
+      "moveNumber": 206,
+      "timestamp": "2025-08-02T03:54:00.712Z",
+      "direction": "Right",
+      "score": 2664,
+      "boardState": "2,8,2,256,0,2,8,128,0,2,2,32,0,0,0,4",
+      "moveTime": 299,
+      "tilesAdded": 1,
+      "tilesRemoved": 1,
+      "isBadMove": true,
+      "expectimaxScores": {
+        "up": 22115632142.977272,
+        "right": -3215470457.022726,
+        "down": -3215471157.022726,
+        "left": -3215471157.022726
+      }
+    },
+    {
+      "sessionId": "20250802_155229_gsay8",
+      "playerName": "Peter",
+      "gameMode": "countdown",
+      "moveNumber": 207,
+      "timestamp": "2025-08-02T03:54:01.064Z",
+      "direction": "Down",
+      "score": 2684,
+      "boardState": "0,0,0,256,2,0,2,128,0,8,8,32,2,4,2,4",
+      "moveTime": 352,
+      "tilesAdded": 1,
+      "tilesRemoved": 2,
+      "isBadMove": true,
+      "expectimaxScores": {
+        "up": 22066187064.8312,
+        "right": -3215471040.571933,
+        "down": -3212913335.1687994,
+        "left": -3215472440.571933
+      }
+    },
+    {
+      "sessionId": "20250802_155229_gsay8",
+      "playerName": "Peter",
+      "gameMode": "countdown",
+      "moveNumber": 208,
+      "timestamp": "2025-08-02T03:54:01.578Z",
+      "direction": "Left",
+      "score": 2684,
+      "boardState": "0,0,0,256,0,0,4,128,0,2,16,32,2,4,2,4",
+      "moveTime": 515,
+      "tilesAdded": 1,
+      "tilesRemoved": 0,
+      "isBadMove": true,
+      "expectimaxScores": {
+        "up": 22115480970.38041,
+        "right": 0,
+        "down": 0,
+        "left": -3212924309.6195927
+      }
+    },
+    {
+      "sessionId": "20250802_155229_gsay8",
+      "playerName": "Peter",
+      "gameMode": "countdown",
+      "moveNumber": 209,
+      "timestamp": "2025-08-02T03:54:01.850Z",
+      "direction": "Down",
+      "score": 2692,
+      "boardState": "2,2,4,256,0,4,16,128,2,0,2,32,0,0,0,4",
+      "moveTime": 272,
+      "tilesAdded": 1,
+      "tilesRemoved": 2,
+      "isBadMove": true,
+      "expectimaxScores": {
+        "up": 223975647086.03122,
+        "right": -3212914313.1687994,
+        "down": -3212937062.267213,
+        "left": -3212915013.1687994
+      }
+    },
+    {
+      "sessionId": "20250802_155229_gsay8",
+      "playerName": "Peter",
+      "gameMode": "countdown",
+      "moveNumber": 210,
+      "timestamp": "2025-08-02T03:54:02.345Z",
+      "direction": "Right",
+      "score": 2700,
+      "boardState": "0,4,4,256,0,4,16,128,4,0,4,32,0,0,0,4",
+      "moveTime": 495,
+      "tilesAdded": 1,
+      "tilesRemoved": 1,
+      "isBadMove": true,
+      "expectimaxScores": {
+        "up": 223975631164.32965,
+        "right": -3212771803.9687796,
+        "down": -3213134275.6703463,
+        "left": -3212772503.9687796
+      }
+    },
+    {
+      "sessionId": "20250802_155229_gsay8",
+      "playerName": "Peter",
+      "gameMode": "countdown",
+      "moveNumber": 211,
+      "timestamp": "2025-08-02T03:54:02.638Z",
+      "direction": "Down",
+      "score": 2708,
+      "boardState": "0,0,0,256,0,0,4,128,2,0,16,32,4,8,4,4",
+      "moveTime": 293,
+      "tilesAdded": 1,
+      "tilesRemoved": 1,
+      "isBadMove": true,
+      "expectimaxScores": {
+        "up": 22115259277.87886,
+        "right": 0,
+        "down": -3213113564.718006,
+        "left": -3212749586.419573
+      }
+    },
+    {
+      "sessionId": "20250802_155229_gsay8",
+      "playerName": "Peter",
+      "gameMode": "countdown",
+      "moveNumber": 212,
+      "timestamp": "2025-08-02T03:54:03.018Z",
+      "direction": "Down",
+      "score": 2724,
+      "boardState": "0,0,2,256,0,0,4,128,0,2,16,32,0,4,8,8",
+      "moveTime": 379,
+      "tilesAdded": 1,
+      "tilesRemoved": 1,
+      "isBadMove": true,
+      "expectimaxScores": {
+        "up": 211365379220.8312,
+        "right": 0,
+        "down": -3213113959.1687994,
+        "left": -3213133716.571933
+      }
+    },
+    {
+      "sessionId": "20250802_155229_gsay8",
+      "playerName": "Peter",
+      "gameMode": "countdown",
+      "moveNumber": 213,
+      "timestamp": "2025-08-02T03:54:03.477Z",
+      "direction": "Right",
+      "score": 2728,
+      "boardState": "0,2,2,256,0,0,4,128,0,2,16,32,0,0,4,16",
+      "moveTime": 459,
+      "tilesAdded": 1,
+      "tilesRemoved": 1,
+      "isBadMove": true,
+      "expectimaxScores": {
+        "up": 211365367357.28198,
+        "right": -3213115294.718006,
+        "down": -3213114542.718006,
+        "left": -3213104714.718006
+      }
+    },
+    {
+      "sessionId": "20250802_155229_gsay8",
+      "playerName": "Peter",
+      "gameMode": "countdown",
+      "moveNumber": 214,
+      "timestamp": "2025-08-02T03:54:03.850Z",
+      "direction": "Left",
+      "score": 2728,
+      "boardState": "0,2,2,256,0,0,4,128,0,0,16,32,0,4,4,16",
+      "moveTime": 374,
+      "tilesAdded": 1,
+      "tilesRemoved": 0,
+      "isBadMove": true,
+      "expectimaxScores": {
+        "up": 211315685938.03122,
+        "right": -3213115689.1687994,
+        "down": -3213309901.9687796,
+        "left": -3213103709.1687994
+      }
+    },
+    {
+      "sessionId": "20250802_155229_gsay8",
+      "playerName": "Peter",
+      "gameMode": "countdown",
+      "moveNumber": 215,
+      "timestamp": "2025-08-02T03:54:04.262Z",
+      "direction": "Right",
+      "score": 2728,
+      "boardState": "0,2,2,256,0,4,4,128,0,0,16,32,0,2,4,16",
+      "moveTime": 412,
+      "tilesAdded": 1,
+      "tilesRemoved": 0,
+      "isBadMove": true,
+      "expectimaxScores": {
+        "up": 211315876603.5804,
+        "right": -3213105503.6195927,
+        "down": -3213130516.419573,
+        "left": -3213104103.6195927
+      }
+    },
+    {
+      "sessionId": "20250802_155229_gsay8",
+      "playerName": "Peter",
+      "gameMode": "countdown",
+      "moveNumber": 216,
+      "timestamp": "2025-08-02T03:54:04.813Z",
+      "direction": "Right",
+      "score": 2728,
+      "boardState": "0,0,2,256,4,2,4,128,0,4,16,32,0,2,4,16",
+      "moveTime": 551,
+      "tilesAdded": 1,
+      "tilesRemoved": 0,
+      "isBadMove": true,
+      "expectimaxScores": {
+        "up": 211365398030.3804,
+        "right": -3213095901.6195927,
+        "down": 0,
+        "left": -3213094501.6195927
+      }
+    },
+    {
+      "sessionId": "20250802_155229_gsay8",
+      "playerName": "Peter",
+      "gameMode": "countdown",
+      "moveNumber": 217,
+      "timestamp": "2025-08-02T03:54:05.367Z",
+      "direction": "Left",
+      "score": 2736,
+      "boardState": "0,0,2,256,4,2,4,128,0,4,16,32,4,2,4,16",
+      "moveTime": 554,
+      "tilesAdded": 1,
+      "tilesRemoved": 1,
+      "isBadMove": true,
+      "expectimaxScores": {
+        "up": 211365385772.3804,
+        "right": -3212929943.3211594,
+        "down": 0,
+        "left": -3212928543.3211594
+      }
+    },
+    {
+      "sessionId": "20250802_155229_gsay8",
+      "playerName": "Peter",
+      "gameMode": "countdown",
+      "moveNumber": 218,
+      "timestamp": "2025-08-02T03:54:05.802Z",
+      "direction": "Down",
+      "score": 2748,
+      "boardState": "8,2,2,256,2,4,4,128,0,2,16,32,0,0,4,16",
+      "moveTime": 435,
+      "tilesAdded": 1,
+      "tilesRemoved": 2,
+      "isBadMove": true,
+      "expectimaxScores": {
+        "up": 211316064449.42807,
+        "right": -3212749157.7719526,
+        "down": -3212965930.571933,
+        "left": 0
+      }
+    },
+    {
+      "sessionId": "20250802_155229_gsay8",
+      "playerName": "Peter",
+      "gameMode": "countdown",
+      "moveNumber": 219,
+      "timestamp": "2025-08-02T03:54:06.426Z",
+      "direction": "Right",
+      "score": 2752,
+      "boardState": "0,8,4,256,0,2,8,128,2,2,16,32,0,0,4,16",
+      "moveTime": 624,
+      "tilesAdded": 1,
+      "tilesRemoved": 1,
+      "isBadMove": true,
+      "expectimaxScores": {
+        "up": 211316051885.87885,
+        "right": -3212967214.1211395,
+        "down": -3212956634.1211395,
+        "left": -3212967914.1211395
+      }
+    },
+    {
+      "sessionId": "20250802_155229_gsay8",
+      "playerName": "Peter",
+      "gameMode": "countdown",
+      "moveNumber": 220,
+      "timestamp": "2025-08-02T03:54:06.845Z",
+      "direction": "Down",
+      "score": 2760,
+      "boardState": "0,0,4,256,0,2,8,128,0,8,16,32,2,4,4,16",
+      "moveTime": 419,
+      "tilesAdded": 1,
+      "tilesRemoved": 1,
+      "isBadMove": true,
+      "expectimaxScores": {
+        "up": 223932322447.7265,
+        "right": 0,
+        "down": -3213150352.2734995,
+        "left": -3212955628.571933
+      }
+    },
+    {
+      "sessionId": "20250802_155229_gsay8",
+      "playerName": "Peter",
+      "gameMode": "countdown",
+      "moveNumber": 221,
+      "timestamp": "2025-08-02T03:54:07.272Z",
+      "direction": "Down",
+      "score": 2764,
+      "boardState": "0,0,4,256,2,2,8,128,0,8,16,32,0,2,8,16",
+      "moveTime": 427,
+      "tilesAdded": 1,
+      "tilesRemoved": 1,
+      "isBadMove": true,
+      "expectimaxScores": {
+        "up": 223932299304.1773,
+        "right": -3213150046.7242928,
+        "down": -3213151635.822706,
+        "left": -3213149346.7242928
+      }
+    },
+    {
+      "sessionId": "20250802_155229_gsay8",
+      "playerName": "Peter",
+      "gameMode": "countdown",
+      "moveNumber": 222,
+      "timestamp": "2025-08-02T03:54:07.653Z",
+      "direction": "Right",
+      "score": 2764,
+      "boardState": "0,0,4,256,2,4,8,128,0,8,16,32,0,2,8,16",
+      "moveTime": 381,
+      "tilesAdded": 1,
+      "tilesRemoved": 0,
+      "isBadMove": true,
+      "expectimaxScores": {
+        "up": 211365318641.7265,
+        "right": -3213151330.2734995,
+        "down": 0,
+        "left": -3213161910.2734995
+      }
+    },
+    {
+      "sessionId": "20250802_155229_gsay8",
+      "playerName": "Peter",
+      "gameMode": "countdown",
+      "moveNumber": 223,
+      "timestamp": "2025-08-02T03:54:08.013Z",
+      "direction": "Left",
+      "score": 2772,
+      "boardState": "0,4,4,256,0,4,8,128,0,8,16,32,2,2,8,16",
+      "moveTime": 359,
+      "tilesAdded": 1,
+      "tilesRemoved": 1,
+      "isBadMove": true,
+      "expectimaxScores": {
+        "up": 223932091038.9265,
+        "right": -3213164451.975066,
+        "down": -3213178021.0734797,
+        "left": -3210438246.571933
+      }
+    },
+    {
+      "sessionId": "20250802_155229_gsay8",
+      "playerName": "Peter",
+      "gameMode": "countdown",
+      "moveNumber": 224,
+      "timestamp": "2025-08-02T03:54:08.426Z",
+      "direction": "Right",
+      "score": 2792,
+      "boardState": "2,8,4,256,2,8,8,128,0,2,16,32,0,0,8,16",
+      "moveTime": 414,
+      "tilesAdded": 1,
+      "tilesRemoved": 2,
+      "isBadMove": true,
+      "expectimaxScores": {
+        "up": 22068878878.977272,
+        "right": -3210416270.1211395,
+        "down": -3213324921.022726,
+        "left": -3210439530.1211395
+      }
+    },
+    {
+      "sessionId": "20250802_155229_gsay8",
+      "playerName": "Peter",
+      "gameMode": "countdown",
+      "moveNumber": 225,
+      "timestamp": "2025-08-02T03:54:08.832Z",
+      "direction": "Down",
+      "score": 2824,
+      "boardState": "0,0,4,256,0,0,8,128,4,16,16,32,4,2,8,16",
+      "moveTime": 406,
+      "tilesAdded": 1,
+      "tilesRemoved": 1,
+      "isBadMove": true,
+      "expectimaxScores": {
+        "up": 212031368649.67938,
+        "right": -3210250311.822706,
+        "down": -3168961511.92166,
+        "left": -3210454051.822706
+      }
+    },
+    {
+      "sessionId": "20250802_155229_gsay8",
+      "playerName": "Peter",
+      "gameMode": "countdown",
+      "moveNumber": 226,
+      "timestamp": "2025-08-02T03:54:09.222Z",
+      "direction": "Left",
+      "score": 2824,
+      "boardState": "2,0,4,256,0,0,8,128,0,4,32,32,4,2,8,16",
+      "moveTime": 390,
+      "tilesAdded": 1,
+      "tilesRemoved": 0,
+      "isBadMove": true,
+      "expectimaxScores": {
+        "up": 224648026447.22858,
+        "right": -3168961906.372453,
+        "down": -3236873612.771412,
+        "left": -3168961206.372453
+      }
+    },
+    {
+      "sessionId": "20250802_155229_gsay8",
+      "playerName": "Peter",
+      "gameMode": "countdown",
+      "moveNumber": 227,
+      "timestamp": "2025-08-02T03:54:09.631Z",
+      "direction": "Down",
+      "score": 2896,
+      "boardState": "2,4,4,256,4,2,8,128,0,4,32,32,0,0,8,16",
+      "moveTime": 408,
+      "tilesAdded": 1,
+      "tilesRemoved": 2,
+      "isBadMove": true,
+      "expectimaxScores": {
+        "up": 212819905445.527,
+        "right": -3168973464.372453,
+        "down": -3236875454.4729786,
+        "left": 0
+      }
+    },
+    {
+      "sessionId": "20250802_155229_gsay8",
+      "playerName": "Peter",
+      "gameMode": "countdown",
+      "moveNumber": 228,
+      "timestamp": "2025-08-02T03:54:10.113Z",
+      "direction": "Right",
+      "score": 2916,
+      "boardState": "0,2,8,256,4,2,8,128,0,0,4,64,2,0,8,16",
+      "moveTime": 483,
+      "tilesAdded": 1,
+      "tilesRemoved": 2,
+      "isBadMove": true,
+      "expectimaxScores": {
+        "up": 212826075963.07623,
+        "right": -3234138552.619052,
+        "down": -3236875096.923772,
+        "left": -3237048092.619052
+      }
+    },
+    {
+      "sessionId": "20250802_155229_gsay8",
+      "playerName": "Peter",
+      "gameMode": "countdown",
+      "moveNumber": 229,
+      "timestamp": "2025-08-02T03:54:10.494Z",
+      "direction": "Down",
+      "score": 2924,
+      "boardState": "0,0,2,256,0,0,16,128,4,0,4,64,2,4,8,16",
+      "moveTime": 381,
+      "tilesAdded": 1,
+      "tilesRemoved": 1,
+      "isBadMove": true,
+      "expectimaxScores": {
+        "up": 212031021217.22858,
+        "right": 0,
+        "down": -3234354882.771412,
+        "left": -3234149527.069845
+      }
+    },
+    {
+      "sessionId": "20250802_155229_gsay8",
+      "playerName": "Peter",
+      "gameMode": "countdown",
+      "moveNumber": 230,
+      "timestamp": "2025-08-02T03:54:11.377Z",
+      "direction": "Left",
+      "score": 2940,
+      "boardState": "0,0,2,256,0,0,16,128,0,2,8,64,2,4,8,16",
+      "moveTime": 883,
+      "tilesAdded": 1,
+      "tilesRemoved": 1,
+      "isBadMove": true,
+      "expectimaxScores": {
+        "up": 212819549922.7778,
+        "right": -3192866455.6195927,
+        "down": 0,
+        "left": -3234298931.8190727
+      }
+    },
+    {
+      "sessionId": "20250802_155229_gsay8",
+      "playerName": "Peter",
+      "gameMode": "countdown",
+      "moveNumber": 231,
+      "timestamp": "2025-08-02T03:54:11.854Z",
+      "direction": "Right",
+      "score": 2972,
+      "boardState": "2,2,2,256,0,4,16,128,0,0,16,64,0,2,0,16",
+      "moveTime": 477,
+      "tilesAdded": 1,
+      "tilesRemoved": 1,
+      "isBadMove": true,
+      "expectimaxScores": {
+        "up": 212819569744.6317,
+        "right": -3192843538.070386,
+        "down": -3234312895.3682785,
+        "left": -3189774678.0703864
+      }
+    },
+    {
+      "sessionId": "20250802_155229_gsay8",
+      "playerName": "Peter",
+      "gameMode": "countdown",
+      "moveNumber": 232,
+      "timestamp": "2025-08-02T03:54:12.435Z",
+      "direction": "Down",
+      "score": 2980,
+      "boardState": "0,0,0,256,0,2,2,128,0,4,2,64,2,2,32,16",
+      "moveTime": 581,
+      "tilesAdded": 1,
+      "tilesRemoved": 2,
+      "isBadMove": true,
+      "expectimaxScores": {
+        "up": 23617097277.281994,
+        "right": -3192855401.6195927,
+        "down": -3192846462.718006,
+        "left": -3189787941.6195927
+      }
+    },
+    {
+      "sessionId": "20250802_155229_gsay8",
+      "playerName": "Peter",
+      "gameMode": "countdown",
+      "moveNumber": 233,
+      "timestamp": "2025-08-02T03:54:12.896Z",
+      "direction": "Left",
+      "score": 2988,
+      "boardState": "0,0,2,256,0,0,4,128,0,4,2,64,0,4,32,16",
+      "moveTime": 461,
+      "tilesAdded": 1,
+      "tilesRemoved": 1,
+      "isBadMove": true,
+      "expectimaxScores": {
+        "up": 212913375682.8312,
+        "right": -3192871680.870366,
+        "down": 0,
+        "left": -3192679920.870366
+      }
+    },
+    {
+      "sessionId": "20250802_155229_gsay8",
+      "playerName": "Peter",
+      "gameMode": "countdown",
+      "moveNumber": 234,
+      "timestamp": "2025-08-02T03:54:13.339Z",
+      "direction": "Right",
+      "score": 2988,
+      "boardState": "0,8,2,256,0,0,4,128,0,0,2,64,2,0,32,16",
+      "moveTime": 442,
+      "tilesAdded": 1,
+      "tilesRemoved": 0,
+      "isBadMove": true,
+      "expectimaxScores": {
+        "up": 224648905296.67883,
+        "right": -3192872075.3211594,
+        "down": -3192679563.3211594,
+        "left": -3192680315.3211594
+      }
+    },
+    {
+      "sessionId": "20250802_155229_gsay8",
+      "playerName": "Peter",
+      "gameMode": "countdown",
+      "moveNumber": 235,
+      "timestamp": "2025-08-02T03:54:13.697Z",
+      "direction": "Down",
+      "score": 2996,
+      "boardState": "0,0,2,256,0,4,4,128,0,0,2,64,2,8,32,16",
+      "moveTime": 359,
+      "tilesAdded": 1,
+      "tilesRemoved": 1,
+      "isBadMove": true,
+      "expectimaxScores": {
+        "up": 212075559062.97726,
+        "right": -3192862473.3211594,
+        "down": -3192706117.022726,
+        "left": -3192501513.3211594
+      }
+    },
+    {
+      "sessionId": "20250802_155229_gsay8",
+      "playerName": "Peter",
+      "gameMode": "countdown",
+      "moveNumber": 236,
+      "timestamp": "2025-08-02T03:54:14.104Z",
+      "direction": "Left",
+      "score": 3000,
+      "boardState": "2,0,2,256,0,0,8,128,0,0,2,64,2,8,32,16",
+      "moveTime": 407,
+      "tilesAdded": 1,
+      "tilesRemoved": 1,
+      "isBadMove": true,
+      "expectimaxScores": {
+        "up": 212075535219.42807,
+        "right": -3192707400.571933,
+        "down": -3192707400.571933,
+        "left": -3192515640.571933
+      }
+    },
+    {
+      "sessionId": "20250802_155229_gsay8",
+      "playerName": "Peter",
+      "gameMode": "countdown",
+      "moveNumber": 237,
+      "timestamp": "2025-08-02T03:54:14.507Z",
+      "direction": "Down",
+      "score": 3004,
+      "boardState": "4,8,2,256,0,0,8,128,0,2,2,64,0,0,32,16",
+      "moveTime": 403,
+      "tilesAdded": 1,
+      "tilesRemoved": 1,
+      "isBadMove": true,
+      "expectimaxScores": {
+        "up": 22779446195.87886,
+        "right": -3192312995.022726,
+        "down": -3192528204.1211395,
+        "left": -3192516035.022726
+      }
+    },
+    {
+      "sessionId": "20250802_155229_gsay8",
+      "playerName": "Peter",
+      "gameMode": "countdown",
+      "moveNumber": 238,
+      "timestamp": "2025-08-02T03:54:15.316Z",
+      "direction": "Left",
+      "score": 3004,
+      "boardState": "4,8,2,256,0,0,8,128,0,2,4,64,0,0,32,16",
+      "moveTime": 809,
+      "tilesAdded": 1,
+      "tilesRemoved": 0,
+      "isBadMove": true,
+      "expectimaxScores": {
+        "up": 23571065673.428066,
+        "right": -3192336838.571933,
+        "down": 0,
+        "left": -3192528598.571933
+      }
+    },
+    {
+      "sessionId": "20250802_155229_gsay8",
+      "playerName": "Peter",
+      "gameMode": "countdown",
+      "moveNumber": 239,
+      "timestamp": "2025-08-02T03:54:15.656Z",
+      "direction": "Right",
+      "score": 3008,
+      "boardState": "4,8,2,256,0,2,8,128,0,0,4,64,0,2,32,16",
+      "moveTime": 339,
+      "tilesAdded": 1,
+      "tilesRemoved": 1,
+      "isBadMove": true,
+      "expectimaxScores": {
+        "up": 23571077258.977272,
+        "right": -3192359982.1211395,
+        "down": 0,
+        "left": -3192529882.1211395
+      }
+    },
+    {
+      "sessionId": "20250802_155229_gsay8",
+      "playerName": "Peter",
+      "gameMode": "countdown",
+      "moveNumber": 240,
+      "timestamp": "2025-08-02T03:54:16.109Z",
+      "direction": "Down",
+      "score": 3016,
+      "boardState": "0,0,2,256,0,2,8,128,0,8,4,64,4,4,32,16",
+      "moveTime": 453,
+      "tilesAdded": 1,
+      "tilesRemoved": 1,
+      "isBadMove": true,
+      "expectimaxScores": {
+        "up": 224741075959.7265,
+        "right": 0,
+        "down": -3192553700.2734995,
+        "left": -3192516896.571933
+      }
+    },
+    {
+      "sessionId": "20250802_155229_gsay8",
+      "playerName": "Peter",
+      "gameMode": "countdown",
+      "moveNumber": 241,
+      "timestamp": "2025-08-02T03:54:16.460Z",
+      "direction": "Left",
+      "score": 3032,
+      "boardState": "0,0,2,256,2,2,8,128,0,8,4,64,0,8,32,16",
+      "moveTime": 352,
+      "tilesAdded": 1,
+      "tilesRemoved": 1,
+      "isBadMove": true,
+      "expectimaxScores": {
+        "up": 224741062696.1773,
+        "right": -3192883369.3211594,
+        "down": -3192554983.822706,
+        "left": -3186914849.32116
+      }
+    },
+    {
+      "sessionId": "20250802_155229_gsay8",
+      "playerName": "Peter",
+      "gameMode": "countdown",
+      "moveNumber": 242,
+      "timestamp": "2025-08-02T03:54:16.802Z",
+      "direction": "Down",
+      "score": 3036,
+      "boardState": "2,2,2,256,0,16,8,128,0,0,4,64,2,0,32,16",
+      "moveTime": 342,
+      "tilesAdded": 1,
+      "tilesRemoved": 1,
+      "isBadMove": true,
+      "expectimaxScores": {
+        "up": 212823661939.12964,
+        "right": -3192884652.870366,
+        "down": -3186916780.870366,
+        "left": -3186905552.870366
+      }
+    },
+    {
+      "sessionId": "20250802_155229_gsay8",
+      "playerName": "Peter",
+      "gameMode": "countdown",
+      "moveNumber": 243,
+      "timestamp": "2025-08-02T03:54:17.227Z",
+      "direction": "Right",
+      "score": 3036,
+      "boardState": "0,2,4,256,0,16,8,128,0,0,4,64,2,2,32,16",
+      "moveTime": 425,
+      "tilesAdded": 1,
+      "tilesRemoved": 0,
+      "isBadMove": true,
+      "expectimaxScores": {
+        "up": 212823650075.5804,
+        "right": -3186736747.3211594,
+        "down": -3186918064.419573,
+        "left": -3186917227.3211594
+      }
+    },
+    {
+      "sessionId": "20250802_155229_gsay8",
+      "playerName": "Peter",
+      "gameMode": "countdown",
+      "moveNumber": 244,
+      "timestamp": "2025-08-02T03:54:17.634Z",
+      "direction": "Down",
+      "score": 3040,
+      "boardState": "0,2,4,256,0,2,8,128,0,16,4,64,2,2,32,16",
+      "moveTime": 406,
+      "tilesAdded": 1,
+      "tilesRemoved": 1,
+      "isBadMove": true,
+      "expectimaxScores": {
+        "up": 212081695649.12964,
+        "right": -3186738030.870366,
+        "down": -3186749310.870366,
+        "left": -3186929790.870366
+      }
+    },
+    {
+      "sessionId": "20250802_155229_gsay8",
+      "playerName": "Peter",
+      "gameMode": "countdown",
+      "moveNumber": 245,
+      "timestamp": "2025-08-02T03:54:18.095Z",
+      "direction": "Left",
+      "score": 3044,
+      "boardState": "0,2,4,256,0,2,8,128,2,16,4,64,0,4,32,16",
+      "moveTime": 462,
+      "tilesAdded": 1,
+      "tilesRemoved": 1,
+      "isBadMove": true,
+      "expectimaxScores": {
+        "up": 212084595666.67883,
+        "right": -3186751294.419573,
+        "down": 0,
+        "left": -3186930374.419573
+      }
+    },
+    {
+      "sessionId": "20250802_155229_gsay8",
+      "playerName": "Peter",
+      "gameMode": "countdown",
+      "moveNumber": 246,
+      "timestamp": "2025-08-02T03:54:18.422Z",
+      "direction": "Down",
+      "score": 3060,
+      "boardState": "2,4,4,256,2,16,8,128,0,4,4,64,0,0,32,16",
+      "moveTime": 327,
+      "tilesAdded": 1,
+      "tilesRemoved": 2,
+      "isBadMove": true,
+      "expectimaxScores": {
+        "up": 212817305515.7265,
+        "right": -3186751877.9687796,
+        "down": -3187124904.2734995,
+        "left": -3186930957.9687796
+      }
+    },
+    {
+      "sessionId": "20250802_155229_gsay8",
+      "playerName": "Peter",
+      "gameMode": "countdown",
+      "moveNumber": 247,
+      "timestamp": "2025-08-02T03:54:18.802Z",
+      "direction": "Right",
+      "score": 3076,
+      "boardState": "0,2,8,256,2,16,8,128,0,2,8,64,0,0,32,16",
+      "moveTime": 380,
+      "tilesAdded": 1,
+      "tilesRemoved": 1,
+      "isBadMove": true,
+      "expectimaxScores": {
+        "up": 212823272941.2757,
+        "right": -3190161825.3211594,
+        "down": 0,
+        "left": -3184387165.3211594
+      }
+    },
+    {
+      "sessionId": "20250802_155229_gsay8",
+      "playerName": "Peter",
+      "gameMode": "countdown",
+      "moveNumber": 248,
+      "timestamp": "2025-08-02T03:54:19.600Z",
+      "direction": "Down",
+      "score": 3112,
+      "boardState": "2,0,0,256,0,2,8,128,0,16,16,64,2,2,32,16",
+      "moveTime": 798,
+      "tilesAdded": 1,
+      "tilesRemoved": 2,
+      "isBadMove": true,
+      "expectimaxScores": {
+        "up": 225481394659.3291,
+        "right": -3190152528.870366,
+        "down": -3194920780.6708865,
+        "left": -3187264848.870366
+      }
+    },
+    {
+      "sessionId": "20250802_155229_gsay8",
+      "playerName": "Peter",
+      "gameMode": "countdown",
+      "moveNumber": 249,
+      "timestamp": "2025-08-02T03:54:20.302Z",
+      "direction": "Left",
+      "score": 3176,
+      "boardState": "0,0,2,256,2,2,8,128,0,0,32,64,0,4,32,16",
+      "moveTime": 702,
+      "tilesAdded": 1,
+      "tilesRemoved": 1,
+      "isBadMove": true,
+      "expectimaxScores": {
+        "up": 225481381395.7799,
+        "right": -2474666945.5206385,
+        "down": -3194910784.2200933,
+        "left": -2471574125.5206394
+      }
+    },
+    {
+      "sessionId": "20250802_155229_gsay8",
+      "playerName": "Peter",
+      "gameMode": "countdown",
+      "moveNumber": 250,
+      "timestamp": "2025-08-02T03:54:20.763Z",
+      "direction": "Down",
+      "score": 3308,
+      "boardState": "2,2,2,256,2,4,8,128,0,0,64,64,0,0,0,16",
+      "moveTime": 461,
+      "tilesAdded": 1,
+      "tilesRemoved": 2,
+      "isBadMove": true,
+      "expectimaxScores": {
+        "up": 223618365586.46347,
+        "right": -2474667529.069845,
+        "down": -3474778593.536537,
+        "left": -2471564829.069845
+      }
+    },
+    {
+      "sessionId": "20250802_155229_gsay8",
+      "playerName": "Peter",
+      "gameMode": "countdown",
+      "moveNumber": 251,
+      "timestamp": "2025-08-02T03:54:22.061Z",
+      "direction": "Left",
+      "score": 3568,
+      "boardState": "0,2,4,256,2,4,8,128,0,0,0,128,2,0,0,16",
+      "moveTime": 1298,
+      "tilesAdded": 1,
+      "tilesRemoved": 2,
+      "isBadMove": true,
+      "expectimaxScores": {
+        "up": 223624514944.01266,
+        "right": 3196405123528.1113,
+        "down": -3474778235.9873304,
+        "left": -5905574634.152361
+      }
+    },
+    {
+      "sessionId": "20250802_155229_gsay8",
+      "playerName": "Peter",
+      "gameMode": "countdown",
+      "moveNumber": 252,
+      "timestamp": "2025-08-02T03:54:24.484Z",
+      "direction": "Right",
+      "score": 4080,
+      "boardState": "4,2,4,256,2,4,8,256,0,0,0,16,0,0,0,0",
+      "moveTime": 2423,
+      "tilesAdded": 1,
+      "tilesRemoved": 1,
+      "isBadMove": false,
+      "expectimaxScores": {
+        "up": -5902495588.603153,
+        "right": 3196405144993.66,
+        "down": 0,
+        "left": -33407000926.3397
+      }
+    },
+    {
+      "sessionId": "20250802_155229_gsay8",
+      "playerName": "Peter",
+      "gameMode": "countdown",
+      "moveNumber": 253,
+      "timestamp": "2025-08-02T03:54:24.902Z",
+      "direction": "Left",
+      "score": 4084,
+      "boardState": "0,0,0,0,0,2,0,0,4,2,4,512,2,4,8,16",
+      "moveTime": 418,
+      "tilesAdded": 1,
+      "tilesRemoved": 1,
+      "isBadMove": true,
+      "expectimaxScores": {
+        "up": 3196405144599.2095,
+        "right": 3196405134530.1113,
+        "down": 3196405144599.2095,
+        "left": -33406856381.590473
+      }
+    },
+    {
+      "sessionId": "20250802_155229_gsay8",
+      "playerName": "Peter",
+      "gameMode": "countdown",
+      "moveNumber": 254,
+      "timestamp": "2025-08-02T03:54:25.269Z",
+      "direction": "Down",
+      "score": 4092,
+      "boardState": "4,4,4,512,2,4,8,16,0,0,0,0,0,0,2,0",
+      "moveTime": 366,
+      "tilesAdded": 1,
+      "tilesRemoved": 1,
+      "isBadMove": true,
+      "expectimaxScores": {
+        "up": 3196411257715.9585,
+        "right": 3196405526775.9585,
+        "down": -33407215584.041264,
+        "left": -33406856024.041264
+      }
+    },
+    {
+      "sessionId": "20250802_155229_gsay8",
+      "playerName": "Peter",
+      "gameMode": "countdown",
+      "moveNumber": 255,
+      "timestamp": "2025-08-02T03:54:25.461Z",
+      "direction": "Down",
+      "score": 4092,
+      "boardState": "0,4,8,512,2,4,8,16,2,0,0,0,0,0,0,2",
+      "moveTime": 193,
+      "tilesAdded": 1,
+      "tilesRemoved": 0,
+      "isBadMove": true,
+      "expectimaxScores": {
+        "up": 3196411257269.508,
+        "right": 3196411093290.1113,
+        "down": -33407216030.492058,
+        "left": -33407380709.88891
+      }
+    },
+    {
+      "sessionId": "20250802_155229_gsay8",
+      "playerName": "Peter",
+      "gameMode": "countdown",
+      "moveNumber": 256,
+      "timestamp": "2025-08-02T03:54:25.662Z",
+      "direction": "Down",
+      "score": 4096,
+      "boardState": "0,4,8,512,2,4,8,16,2,0,0,2,0,0,0,2",
+      "moveTime": 201,
+      "tilesAdded": 1,
+      "tilesRemoved": 1,
+      "isBadMove": true,
+      "expectimaxScores": {
+        "up": 3196411265865.9585,
+        "right": 3196411080726.562,
+        "down": -33407218014.041264,
+        "left": -33407381993.438114
+      }
+    },
+    {
+      "sessionId": "20250802_155229_gsay8",
+      "playerName": "Peter",
+      "gameMode": "countdown",
+      "moveNumber": 257,
+      "timestamp": "2025-08-02T03:54:25.867Z",
+      "direction": "Down",
+      "score": 4100,
+      "boardState": "0,4,8,512,2,4,8,16,0,0,0,4,0,2,0,2",
+      "moveTime": 205,
+      "tilesAdded": 1,
+      "tilesRemoved": 1,
+      "isBadMove": true,
+      "expectimaxScores": {
+        "up": 3196411265282.4097,
+        "right": -33403917086.79049,
+        "down": -33407218597.590473,
+        "left": -33407380746.79049
+      }
+    },
+    {
+      "sessionId": "20250802_155229_gsay8",
+      "playerName": "Peter",
+      "gameMode": "countdown",
+      "moveNumber": 258,
+      "timestamp": "2025-08-02T03:54:26.072Z",
+      "direction": "Down",
+      "score": 4100,
+      "boardState": "0,4,8,512,2,4,8,16,0,0,0,4,2,0,0,4",
+      "moveTime": 204,
+      "tilesAdded": 1,
+      "tilesRemoved": 0,
+      "isBadMove": true,
+      "expectimaxScores": {
+        "up": 3196411287499.9585,
+        "right": 3196410705244.8604,
+        "down": -33407218240.041264,
+        "left": -33407396515.139683
+      }
+    },
+    {
+      "sessionId": "20250802_155229_gsay8",
+      "playerName": "Peter",
+      "gameMode": "countdown",
+      "moveNumber": 259,
+      "timestamp": "2025-08-02T03:54:26.945Z",
+      "direction": "Right",
+      "score": 4136,
+      "boardState": "2,4,8,512,2,4,8,16,0,0,0,4,0,0,2,4",
+      "moveTime": 874,
+      "tilesAdded": 1,
+      "tilesRemoved": 4,
+      "isBadMove": false,
+      "expectimaxScores": {
+        "up": -33407185546.492058,
+        "right": 3196411089070.4097,
+        "down": 0,
+        "left": -33407396909.590473
+      }
+    },
+    {
+      "sessionId": "20250802_155229_gsay8",
+      "playerName": "Peter",
+      "gameMode": "countdown",
+      "moveNumber": 260,
+      "timestamp": "2025-08-02T03:54:27.484Z",
+      "direction": "Left",
+      "score": 4136,
+      "boardState": "0,0,2,0,0,0,0,512,0,0,16,16,4,8,2,8",
+      "moveTime": 539,
+      "tilesAdded": 1,
+      "tilesRemoved": 0,
+      "isBadMove": true,
+      "expectimaxScores": {
+        "up": 3196406510732.158,
+        "right": 3196411088675.9585,
+        "down": 3196406330252.158,
+        "left": -33404125404.041264
+      }
+    },
+    {
+      "sessionId": "20250802_155229_gsay8",
+      "playerName": "Peter",
+      "gameMode": "countdown",
+      "moveNumber": 261,
+      "timestamp": "2025-08-02T03:54:28.048Z",
+      "direction": "Down",
+      "score": 4168,
+      "boardState": "4,8,2,512,0,0,16,16,0,0,2,8,0,0,2,0",
+      "moveTime": 564,
+      "tilesAdded": 1,
+      "tilesRemoved": 1,
+      "isBadMove": true,
+      "expectimaxScores": {
+        "up": -33359228210.29258,
+        "right": 3196411064832.4097,
+        "down": -33408883470.29258,
+        "left": -33404126687.590473
+      }
+    },
+    {
+      "sessionId": "20250802_155229_gsay8",
+      "playerName": "Peter",
+      "gameMode": "countdown",
+      "moveNumber": 262,
+      "timestamp": "2025-08-02T03:54:28.262Z",
+      "direction": "Down",
+      "score": 4172,
+      "boardState": "4,8,2,512,0,0,0,32,0,2,2,8,0,0,0,2",
+      "moveTime": 214,
+      "tilesAdded": 1,
+      "tilesRemoved": 1,
+      "isBadMove": false,
+      "expectimaxScores": {
+        "up": -33359241473.841785,
+        "right": -33408681713.841785,
+        "down": -33408873473.841785,
+        "left": -33408896033.841785
+      }
+    },
+    {
+      "sessionId": "20250802_155229_gsay8",
+      "playerName": "Peter",
+      "gameMode": "countdown",
+      "moveNumber": 263,
+      "timestamp": "2025-08-02T03:54:28.491Z",
+      "direction": "Down",
+      "score": 4176,
+      "boardState": "4,8,2,512,0,0,0,32,0,0,4,8,0,0,2,2",
+      "moveTime": 228,
+      "tilesAdded": 1,
+      "tilesRemoved": 1,
+      "isBadMove": false,
+      "expectimaxScores": {
+        "up": -33359242057.390995,
+        "right": -33408885200.29258,
+        "down": -33408874757.390995,
+        "left": -33408874620.29258
+      }
+    },
+    {
+      "sessionId": "20250802_155229_gsay8",
+      "playerName": "Peter",
+      "gameMode": "countdown",
+      "moveNumber": 264,
+      "timestamp": "2025-08-02T03:54:28.704Z",
+      "direction": "Down",
+      "score": 4184,
+      "boardState": "4,8,2,512,0,0,0,32,0,0,4,8,0,0,4,4",
+      "moveTime": 214,
+      "tilesAdded": 1,
+      "tilesRemoved": 1,
+      "isBadMove": false,
+      "expectimaxScores": {
+        "up": -33359257279.09256,
+        "right": -33408911891.09256,
+        "down": -33408888579.09256,
+        "left": -33408709551.09256
+      }
+    },
+    {
+      "sessionId": "20250802_155229_gsay8",
+      "playerName": "Peter",
+      "gameMode": "countdown",
+      "moveNumber": 265,
+      "timestamp": "2025-08-02T03:54:29.578Z",
+      "direction": "Left",
+      "score": 4200,
+      "boardState": "4,8,2,512,0,0,0,32,0,2,4,8,0,0,0,8",
+      "moveTime": 874,
+      "tilesAdded": 1,
+      "tilesRemoved": 1,
+      "isBadMove": true,
+      "expectimaxScores": {
+        "up": -33359223081.543354,
+        "right": 3196403479639.86,
+        "down": 0,
+        "left": -33409038520.14022
+      }
+    }
+  ]
+}

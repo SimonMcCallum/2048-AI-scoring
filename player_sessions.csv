@@ -1,0 +1,2 @@
+session_id,start_time,end_time,final_score,highest_tile,total_moves,bad_moves,average_time_per_move_ms
+20250731_233122,2025-07-31 23:31:22,"2025-07-31 23:33:54",124,16,25,2,4545.28

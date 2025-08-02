@@ -1,0 +1,369 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <title>2048 Game Analytics Dashboard</title>
+  <link href="style/main.css" rel="stylesheet" type="text/css">
+  <script src="https://cdn.jsdelivr.net/npm/chart.js@4.4.1/dist/chart.umd.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/chartjs-adapter-date-fns@3.0.0/dist/chartjs-adapter-date-fns.bundle.min.js"></script>
+  <style>
+    .analytics-container {
+      max-width: 1200px;
+      margin: 0 auto;
+      padding: 20px;
+    }
+    
+    .analytics-header {
+      text-align: center;
+      margin-bottom: 40px;
+      background: #f9f6f2;
+      padding: 30px;
+      border-radius: 6px;
+    }
+    
+    .analytics-header h1 {
+      color: #776e65;
+      margin-bottom: 10px;
+    }
+    
+    .analytics-header p {
+      color: #8f7a66;
+      font-size: 16px;
+    }
+    
+    .stats-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+      gap: 20px;
+      margin-bottom: 40px;
+    }
+    
+    .stat-card {
+      background: white;
+      padding: 20px;
+      border-radius: 6px;
+      box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+      text-align: center;
+    }
+    
+    .stat-card h3 {
+      color: #776e65;
+      margin-bottom: 10px;
+      font-size: 14px;
+      text-transform: uppercase;
+    }
+    
+    .stat-card .stat-value {
+      font-size: 32px;
+      font-weight: bold;
+      color: #8f7a66;
+      margin-bottom: 5px;
+    }
+    
+    .stat-card .stat-label {
+      color: #999;
+      font-size: 12px;
+    }
+    
+    .chart-container {
+      background: white;
+      padding: 20px;
+      border-radius: 6px;
+      box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+      margin-bottom: 30px;
+    }
+    
+    .chart-container h2 {
+      color: #776e65;
+      margin-bottom: 20px;
+      text-align: center;
+    }
+    
+    .chart-wrapper {
+      position: relative;
+      height: 400px;
+      margin-bottom: 20px;
+    }
+    
+    .filters {
+      background: #f9f6f2;
+      padding: 20px;
+      border-radius: 6px;
+      margin-bottom: 30px;
+      display: flex;
+      gap: 20px;
+      flex-wrap: wrap;
+      align-items: center;
+    }
+    
+    .filter-group {
+      display: flex;
+      flex-direction: column;
+      gap: 5px;
+    }
+    
+    .filter-group label {
+      font-size: 12px;
+      color: #776e65;
+      text-transform: uppercase;
+      font-weight: bold;
+    }
+    
+    .filter-group select, .filter-group input {
+      padding: 8px 12px;
+      border: 2px solid #bbada0;
+      border-radius: 3px;
+      font-size: 14px;
+    }
+    
+    .loading {
+      text-align: center;
+      padding: 40px;
+      color: #999;
+    }
+    
+    .error {
+      background: #f8d7da;
+      color: #721c24;
+      padding: 15px;
+      border-radius: 6px;
+      margin-bottom: 20px;
+    }
+    
+    .player-analysis {
+      background: white;
+      padding: 20px;
+      border-radius: 6px;
+      box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+      margin-bottom: 30px;
+    }
+    
+    .player-list {
+      display: grid;
+      grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+      gap: 15px;
+      margin-top: 20px;
+    }
+    
+    .player-card {
+      background: #f9f6f2;
+      padding: 15px;
+      border-radius: 6px;
+      cursor: pointer;
+      transition: background-color 0.2s;
+    }
+    
+    .player-card:hover {
+      background: #eee4da;
+    }
+    
+    .player-card.selected {
+      background: #8f7a66;
+      color: white;
+    }
+    
+    .back-link {
+      display: inline-block;
+      background: #8f7a66;
+      color: white;
+      padding: 10px 20px;
+      text-decoration: none;
+      border-radius: 3px;
+      margin-bottom: 20px;
+    }
+    
+    .back-link:hover {
+      background: #9f8a76;
+    }
+    
+    .insights {
+      background: #e8f4f8;
+      border-left: 4px solid #17a2b8;
+      padding: 15px;
+      margin: 20px 0;
+    }
+    
+    .insights h4 {
+      color: #0c5460;
+      margin-bottom: 10px;
+    }
+    
+    .insights ul {
+      color: #0c5460;
+      margin: 0;
+    }
+    
+    .game-selector {
+      margin-bottom: 20px;
+      padding: 15px;
+      background: #f9f6f2;
+      border-radius: 6px;
+    }
+    
+    .game-selector label {
+      display: block;
+      margin-bottom: 8px;
+      font-weight: bold;
+      color: #776e65;
+    }
+    
+    .game-selector select {
+      width: 100%;
+      padding: 10px;
+      border: 2px solid #bbada0;
+      border-radius: 3px;
+      font-size: 14px;
+      background: white;
+    }
+    
+    #gameAnalysisContent {
+      margin-top: 20px;
+    }
+  </style>
+</head>
+<body>
+  <div class="analytics-container">
+    <a href="index.html" class="back-link">← Back to Game</a>
+    
+    <div class="analytics-header">
+      <h1>2048 Game Analytics Dashboard</h1>
+      <p>Comprehensive analysis of player performance and learning patterns</p>
+    </div>
+    
+    <div id="loading" class="loading">
+      <p>Loading game data...</p>
+    </div>
+    
+    <div id="error" class="error" style="display: none;">
+      <p>Error loading data. Please ensure you have played some games first.</p>
+    </div>
+    
+    <div id="analytics-content" style="display: none;">
+      <!-- Overall Statistics -->
+      <div class="stats-grid">
+        <div class="stat-card">
+          <h3>Total Games</h3>
+          <div class="stat-value" id="totalGames">0</div>
+          <div class="stat-label">Sessions Played</div>
+        </div>
+        <div class="stat-card">
+          <h3>Total Players</h3>
+          <div class="stat-value" id="totalPlayers">0</div>
+          <div class="stat-label">Unique Players</div>
+        </div>
+        <div class="stat-card">
+          <h3>Average Score</h3>
+          <div class="stat-value" id="avgScore">0</div>
+          <div class="stat-label">All Games</div>
+        </div>
+        <div class="stat-card">
+          <h3>Best Score</h3>
+          <div class="stat-value" id="bestScore">0</div>
+          <div class="stat-label">Highest Achievement</div>
+        </div>
+        <div class="stat-card">
+          <h3>Total Moves</h3>
+          <div class="stat-value" id="totalMoves">0</div>
+          <div class="stat-label">All Sessions</div>
+        </div>
+        <div class="stat-card">
+          <h3>Good Move Rate</h3>
+          <div class="stat-value" id="goodMoveRate">0%</div>
+          <div class="stat-label">Overall Performance</div>
+        </div>
+      </div>
+      
+      <!-- Filters -->
+      <div class="filters">
+        <div class="filter-group">
+          <label>Game Mode</label>
+          <select id="modeFilter">
+            <option value="all">All Modes</option>
+            <option value="normal">No Timer</option>
+            <option value="countup">Count Up</option>
+            <option value="countdown">Countdown</option>
+          </select>
+        </div>
+        <div class="filter-group">
+          <label>Player</label>
+          <select id="playerFilter">
+            <option value="all">All Players</option>
+          </select>
+        </div>
+        <div class="filter-group">
+          <label>Date Range</label>
+          <input type="date" id="startDate">
+        </div>
+        <div class="filter-group">
+          <label>&nbsp;</label>
+          <input type="date" id="endDate">
+        </div>
+      </div>
+      
+      <!-- Score Progression Chart -->
+      <div class="chart-container">
+        <h2>Score Progression Over Time</h2>
+        <div class="chart-wrapper">
+          <canvas id="scoreChart"></canvas>
+        </div>
+        <div class="insights" id="scoreInsights"></div>
+      </div>
+      
+      <!-- Learning Curve Analysis -->
+      <div class="chart-container">
+        <h2>Learning Curve: Good vs Bad Moves</h2>
+        <div class="chart-wrapper">
+          <canvas id="learningChart"></canvas>
+        </div>
+        <div class="insights" id="learningInsights"></div>
+      </div>
+      
+      <!-- Game Mode Performance -->
+      <div class="chart-container">
+        <h2>Performance by Game Mode</h2>
+        <div class="chart-wrapper">
+          <canvas id="modeChart"></canvas>
+        </div>
+        <div class="insights" id="modeInsights"></div>
+      </div>
+      
+      <!-- Move Time Analysis -->
+      <div class="chart-container">
+        <h2>Move Time Analysis</h2>
+        <div class="chart-wrapper">
+          <canvas id="timeChart"></canvas>
+        </div>
+        <div class="insights" id="timeInsights"></div>
+      </div>
+      
+      <!-- Player Comparison -->
+      <div class="player-analysis">
+        <h2>Player Performance Comparison</h2>
+        <div class="chart-wrapper">
+          <canvas id="playerChart"></canvas>
+        </div>
+        <div class="insights" id="playerInsights"></div>
+      </div>
+      
+      <!-- Game Selection and Detailed Analysis -->
+      <div class="chart-container">
+        <h2>Individual Game Analysis</h2>
+        <div class="game-selector">
+          <label for="gameSelect">Select a game to analyze:</label>
+          <select id="gameSelect">
+            <option value="">Choose a game...</option>
+          </select>
+        </div>
+        <div id="gameAnalysisContent" style="display: none;">
+          <div class="chart-wrapper">
+            <canvas id="gameDetailChart"></canvas>
+          </div>
+          <div class="insights" id="gameDetailInsights"></div>
+        </div>
+      </div>
+    </div>
+  </div>
+  
+  <script src="js/analytics.js"></script>
+</body>
+</html>
