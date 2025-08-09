@@ -1,0 +1,10 @@
+---
+# cPanel deployment configuration
+# This deploys the repository's deploy/ folder to:
+#   /home/ludog319/public_html/games/2048
+# which corresponds to https://ludogology.co.nz/games/2048
+deployment:
+  tasks:
+    - export DEPLOYPATH=/home/ludog319/public_html/games/2048
+    - /bin/mkdir -p "$DEPLOYPATH"
+    - /bin/rsync -a --delete deploy/ "$DEPLOYPATH"/
